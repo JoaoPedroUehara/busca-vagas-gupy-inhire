@@ -9,6 +9,7 @@
     "location": "BR",
     "url": "https://contabilizei.inhire.app/vagas/fc71c615-507b-4b02-89d0-d7033b2e6b0e/contabilidade-analista-contabil-junior-crc-ativo",
     "publishedDate": "",
+    "deadline": "",
     "inUserList": true
   },
   {
@@ -21,6 +22,7 @@
     "location": "BR",
     "url": "https://contabilizei.inhire.app/vagas/84646b9e-d831-43a2-9db0-a04434ea0206/expert-analista-de-operacoes-financeiras-junior-notas-fiscais-lp",
     "publishedDate": "",
+    "deadline": "",
     "inUserList": true
   },
   {
@@ -33,6 +35,7 @@
     "location": "BR",
     "url": "https://contabilizei.inhire.app/vagas/dd76143f-464a-4d3c-8330-3c84ee76763c/expert-assistente-de-operacoes-financeiras-notas-fiscais",
     "publishedDate": "",
+    "deadline": "",
     "inUserList": true
   },
   {
@@ -45,7 +48,21 @@
     "location": "BR",
     "url": "https://gruposaga.inhire.app/vagas/835a22cd-2faa-4221-8ad6-b91f03f96e24/assistente-de-controladoria",
     "publishedDate": "",
+    "deadline": "",
     "inUserList": false
+  },
+  {
+    "platform": "InHire",
+    "companyList": "KPMG",
+    "companyInhire": "KPMG",
+    "role": "Mercado Financeiro",
+    "jobTitle": "Consultor Júnior de Finance Transformation",
+    "workplaceType": "Remote",
+    "location": "BR",
+    "url": "https://kpmg.inhire.app/vagas/c3466ef7-e680-4a1f-ab1a-a5934b46f5a6/consultor-junior-de-finance-transformation",
+    "publishedDate": "",
+    "deadline": "",
+    "inUserList": true
   },
   {
     "platform": "InHire",
@@ -57,6 +74,7 @@
     "location": "BR",
     "url": "https://nomadglobal.inhire.app/vagas/b457098d-6aee-49dd-bd00-d6469ade5b8d/analista-de-operacoes-i-cartao-de-credito",
     "publishedDate": "",
+    "deadline": "",
     "inUserList": false
   }
 ]

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { DIR, loadCompanies, matchRole, isAllowedLocation, isEntryLevel, buildCompanyMatcher, sleep } = require('./lib.js');
+const { DIR, loadCompanies, matchRole, isAllowedLocation, isEntryLevel, buildCompanyMatcher, pool, sleep } = require('./lib.js');
 
 const MCP_URL = 'https://www.empregare.com/api/mcp';
 const ITEMS_PER_PAGE = 50;
@@ -66,11 +66,15 @@ async function fetchAll(query) {
   const matchCompany = buildCompanyMatcher(companies);
 
   const byId = new Map();
-  for (const q of QUERIES) {
-    process.stdout.write(`  [empregare] "${q}" ... `);
+  // Termos de busca independentes -> em paralelo (a paginacao de cada termo segue sequencial).
+  const porQuery = await pool(QUERIES, async (q) => {
     const vagas = await fetchAll(q);
+    console.log(`  [empregare] "${q}" ... fetched=${vagas.length}`);
+    return vagas;
+  }, 5);
+  for (const vagas of porQuery) {
+    if (!Array.isArray(vagas)) continue; // pool devolve {__error} se o termo falhou
     for (const v of vagas) byId.set(v.id, v);
-    console.log(`fetched=${vagas.length}`);
   }
   console.log(`[empregare] unique jobs pooled: ${byId.size}`);
 

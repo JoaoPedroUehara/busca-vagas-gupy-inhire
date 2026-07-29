@@ -93,9 +93,9 @@
   {
     "slug": "alelo",
     "tenantName": "Alelo",
-    "jobsCount": 17,
+    "jobsCount": 18,
     "listCompany": "Alelo",
-    "sampleJobs": 17
+    "sampleJobs": 18
   },
   {
     "slug": "alice",
@@ -107,9 +107,9 @@
   {
     "slug": "alicerce",
     "tenantName": "Alicerce",
-    "jobsCount": 17,
+    "jobsCount": 16,
     "listCompany": "Alice",
-    "sampleJobs": 17
+    "sampleJobs": 16
   },
   {
     "slug": "alinemainericonsultoria",
@@ -156,9 +156,9 @@
   {
     "slug": "amcom",
     "tenantName": "AMcom",
-    "jobsCount": 30,
+    "jobsCount": 28,
     "listCompany": "AMCOM",
-    "sampleJobs": 30
+    "sampleJobs": 28
   },
   {
     "slug": "industriasanhembi",
@@ -177,9 +177,9 @@
   {
     "slug": "appmax",
     "tenantName": "Appmax",
-    "jobsCount": 25,
+    "jobsCount": 26,
     "listCompany": null,
-    "sampleJobs": 25
+    "sampleJobs": 26
   },
   {
     "slug": "aprix",
@@ -247,9 +247,9 @@
   {
     "slug": "atlastechnol",
     "tenantName": "Atlas",
-    "jobsCount": 6,
+    "jobsCount": 7,
     "listCompany": null,
-    "sampleJobs": 6
+    "sampleJobs": 7
   },
   {
     "slug": "autom",
@@ -534,16 +534,16 @@
   {
     "slug": "capef",
     "tenantName": "CAPEF",
-    "jobsCount": 1,
+    "jobsCount": 2,
     "listCompany": null,
-    "sampleJobs": 1
+    "sampleJobs": 2
   },
   {
     "slug": "carbigdata",
     "tenantName": "Carbigdata",
-    "jobsCount": 6,
+    "jobsCount": 7,
     "listCompany": null,
-    "sampleJobs": 6
+    "sampleJobs": 7
   },
   {
     "slug": "cardapioweb",
@@ -597,9 +597,9 @@
   {
     "slug": "cerc",
     "tenantName": "CERC",
-    "jobsCount": 18,
+    "jobsCount": 19,
     "listCompany": "CERC",
-    "sampleJobs": 18
+    "sampleJobs": 19
   },
   {
     "slug": "cesconbarrieu",
@@ -639,9 +639,9 @@
   {
     "slug": "clam",
     "tenantName": "Clam",
-    "jobsCount": 52,
+    "jobsCount": 51,
     "listCompany": null,
-    "sampleJobs": 52
+    "sampleJobs": 51
   },
   {
     "slug": "clavis",
@@ -681,9 +681,9 @@
   {
     "slug": "construtoraelevacao",
     "tenantName": "Construtora Elevação",
-    "jobsCount": 12,
+    "jobsCount": 17,
     "listCompany": null,
-    "sampleJobs": 12
+    "sampleJobs": 17
   },
   {
     "slug": "construtorapatriani",
@@ -765,9 +765,9 @@
   {
     "slug": "crmbonus",
     "tenantName": "CRMBonus",
-    "jobsCount": 15,
+    "jobsCount": 14,
     "listCompany": null,
-    "sampleJobs": 15
+    "sampleJobs": 14
   },
   {
     "slug": "crown",
@@ -786,9 +786,9 @@
   {
     "slug": "csu",
     "tenantName": "CSU",
-    "jobsCount": 7,
+    "jobsCount": 6,
     "listCompany": "CSU CardSystem",
-    "sampleJobs": 7
+    "sampleJobs": 6
   },
   {
     "slug": "link2pump",
@@ -800,9 +800,9 @@
   {
     "slug": "ctctech",
     "tenantName": "CTC",
-    "jobsCount": 13,
+    "jobsCount": 15,
     "listCompany": null,
-    "sampleJobs": 13
+    "sampleJobs": 15
   },
   {
     "slug": "cubosacademy",
@@ -849,9 +849,9 @@
   {
     "slug": "deal",
     "tenantName": "Deal Group",
-    "jobsCount": 14,
+    "jobsCount": 15,
     "listCompany": "Deal",
-    "sampleJobs": 14
+    "sampleJobs": 15
   },
   {
     "slug": "dealersites",
@@ -1122,9 +1122,9 @@
   {
     "slug": "farmtech",
     "tenantName": "Farmtech",
-    "jobsCount": 8,
+    "jobsCount": 7,
     "listCompany": null,
-    "sampleJobs": 8
+    "sampleJobs": 7
   },
   {
     "slug": "fbiz",
@@ -1150,9 +1150,9 @@
   {
     "slug": "alun",
     "tenantName": "FIAP/Alura/PM3",
-    "jobsCount": 22,
+    "jobsCount": 23,
     "listCompany": "Alura",
-    "sampleJobs": 22
+    "sampleJobs": 23
   },
   {
     "slug": "fiberhome",
@@ -1192,9 +1192,9 @@
   {
     "slug": "fitting",
     "tenantName": "Fitting",
-    "jobsCount": 16,
+    "jobsCount": 14,
     "listCompany": null,
-    "sampleJobs": 16
+    "sampleJobs": 14
   },
   {
     "slug": "flash",
@@ -1248,9 +1248,9 @@
   {
     "slug": "frameworkdigital",
     "tenantName": "Framework",
-    "jobsCount": 38,
+    "jobsCount": 39,
     "listCompany": null,
-    "sampleJobs": 38
+    "sampleJobs": 39
   },
   {
     "slug": "fretadao",
@@ -1437,23 +1437,23 @@
   {
     "slug": "grupogcbinvestimentos",
     "tenantName": "Grupo GCB",
-    "jobsCount": 12,
+    "jobsCount": 11,
     "listCompany": null,
-    "sampleJobs": 12
+    "sampleJobs": 11
   },
   {
     "slug": "grupolider",
     "tenantName": "Grupo Lider",
-    "jobsCount": 183,
+    "jobsCount": 180,
     "listCompany": null,
-    "sampleJobs": 183
+    "sampleJobs": 180
   },
   {
     "slug": "grupolos",
     "tenantName": "Grupo LOS",
-    "jobsCount": 30,
+    "jobsCount": 29,
     "listCompany": null,
-    "sampleJobs": 30
+    "sampleJobs": 29
   },
   {
     "slug": "grupopermaneo",
@@ -1465,9 +1465,9 @@
   {
     "slug": "grupoprotege",
     "tenantName": "Grupo Protege ",
-    "jobsCount": 202,
+    "jobsCount": 205,
     "listCompany": null,
-    "sampleJobs": 202
+    "sampleJobs": 205
   },
   {
     "slug": "gruposaga",
@@ -1535,9 +1535,9 @@
   {
     "slug": "icatu",
     "tenantName": "Icatu Seguros",
-    "jobsCount": 19,
+    "jobsCount": 18,
     "listCompany": "Icatu Seguros",
-    "sampleJobs": 19
+    "sampleJobs": 18
   },
   {
     "slug": "icatuseguros",
@@ -1556,9 +1556,9 @@
   {
     "slug": "iconit",
     "tenantName": "ICON Solutions do Brasil",
-    "jobsCount": 64,
+    "jobsCount": 65,
     "listCompany": null,
-    "sampleJobs": 64
+    "sampleJobs": 65
   },
   {
     "slug": "idg",
@@ -1668,9 +1668,9 @@
   {
     "slug": "intertechne",
     "tenantName": "Intertechne",
-    "jobsCount": 87,
+    "jobsCount": 89,
     "listCompany": "Inter",
-    "sampleJobs": 87
+    "sampleJobs": 89
   },
   {
     "slug": "involves",
@@ -1682,9 +1682,9 @@
   {
     "slug": "iorq",
     "tenantName": "IORQ",
-    "jobsCount": 7,
+    "jobsCount": 6,
     "listCompany": null,
-    "sampleJobs": 7
+    "sampleJobs": 6
   },
   {
     "slug": "ipnet",
@@ -1801,9 +1801,9 @@
   {
     "slug": "kooperecooperativa",
     "tenantName": "Koopere",
-    "jobsCount": 7,
+    "jobsCount": 8,
     "listCompany": null,
-    "sampleJobs": 7
+    "sampleJobs": 8
   },
   {
     "slug": "kpmg",
@@ -1955,9 +1955,9 @@
   {
     "slug": "livemode",
     "tenantName": "LiveMode",
-    "jobsCount": 25,
+    "jobsCount": 24,
     "listCompany": null,
-    "sampleJobs": 25
+    "sampleJobs": 24
   },
   {
     "slug": "loft",
@@ -1997,16 +1997,16 @@
   {
     "slug": "lwsa",
     "tenantName": "LWSA",
-    "jobsCount": 12,
+    "jobsCount": 14,
     "listCompany": null,
-    "sampleJobs": 12
+    "sampleJobs": 14
   },
   {
     "slug": "lyncas",
     "tenantName": "Lyncas",
-    "jobsCount": 33,
+    "jobsCount": 31,
     "listCompany": null,
-    "sampleJobs": 33
+    "sampleJobs": 31
   },
   {
     "slug": "multi7",
@@ -2067,9 +2067,9 @@
   {
     "slug": "mazzatech",
     "tenantName": "mazzatech",
-    "jobsCount": 93,
+    "jobsCount": 94,
     "listCompany": "Mazzatech Systems & Outsourcing",
-    "sampleJobs": 93
+    "sampleJobs": 94
   },
   {
     "slug": "mediahero",
@@ -2102,9 +2102,9 @@
   {
     "slug": "mena",
     "tenantName": "MENA",
-    "jobsCount": 36,
+    "jobsCount": 35,
     "listCompany": null,
-    "sampleJobs": 36
+    "sampleJobs": 35
   },
   {
     "slug": "mb",
@@ -2144,9 +2144,9 @@
   {
     "slug": "mksolutions",
     "tenantName": "MK Solutions",
-    "jobsCount": 15,
+    "jobsCount": 16,
     "listCompany": null,
-    "sampleJobs": 15
+    "sampleJobs": 16
   },
   {
     "slug": "monkey",
@@ -2270,9 +2270,9 @@
   {
     "slug": "objective",
     "tenantName": "Objective",
-    "jobsCount": 14,
+    "jobsCount": 15,
     "listCompany": "Objective Solutions",
-    "sampleJobs": 14
+    "sampleJobs": 15
   },
   {
     "slug": "oceandrop",
@@ -2312,9 +2312,9 @@
   {
     "slug": "oliveiraeantunes",
     "tenantName": "Oliveira & Antunes Advogados Associados",
-    "jobsCount": 31,
+    "jobsCount": 30,
     "listCompany": null,
-    "sampleJobs": 31
+    "sampleJobs": 30
   },
   {
     "slug": "openlabs",
@@ -2368,16 +2368,16 @@
   {
     "slug": "paytrack",
     "tenantName": "Paytrack",
-    "jobsCount": 24,
+    "jobsCount": 25,
     "listCompany": null,
-    "sampleJobs": 24
+    "sampleJobs": 25
   },
   {
     "slug": "pedraagroindustrial",
     "tenantName": "Pedra Agroindustrial",
-    "jobsCount": 46,
+    "jobsCount": 45,
     "listCompany": null,
-    "sampleJobs": 46
+    "sampleJobs": 45
   },
   {
     "slug": "peers",
@@ -2389,16 +2389,16 @@
   {
     "slug": "petitrh",
     "tenantName": "Petit.RH",
-    "jobsCount": 9,
+    "jobsCount": 11,
     "listCompany": null,
-    "sampleJobs": 9
+    "sampleJobs": 11
   },
   {
     "slug": "pier",
     "tenantName": "Pier Seguradora",
-    "jobsCount": 7,
+    "jobsCount": 8,
     "listCompany": null,
-    "sampleJobs": 7
+    "sampleJobs": 8
   },
   {
     "slug": "piposaude",
@@ -2410,9 +2410,9 @@
   {
     "slug": "pitang",
     "tenantName": "Pitang",
-    "jobsCount": 11,
+    "jobsCount": 10,
     "listCompany": "Pitang",
-    "sampleJobs": 11
+    "sampleJobs": 10
   },
   {
     "slug": "platformbuilders",
@@ -2424,9 +2424,9 @@
   {
     "slug": "poliedroeducacao",
     "tenantName": "Poliedro Educação",
-    "jobsCount": 33,
+    "jobsCount": 34,
     "listCompany": null,
-    "sampleJobs": 33
+    "sampleJobs": 34
   },
   {
     "slug": "pmfo",
@@ -2459,9 +2459,9 @@
   {
     "slug": "premiersoft",
     "tenantName": "Premiersoft",
-    "jobsCount": 36,
+    "jobsCount": 37,
     "listCompany": null,
-    "sampleJobs": 36
+    "sampleJobs": 37
   },
   {
     "slug": "principia",
@@ -2473,9 +2473,9 @@
   {
     "slug": "priner",
     "tenantName": "Priner",
-    "jobsCount": 267,
+    "jobsCount": 200,
     "listCompany": null,
-    "sampleJobs": 267
+    "sampleJobs": 200
   },
   {
     "slug": "pris",
@@ -2564,9 +2564,9 @@
   {
     "slug": "radix",
     "tenantName": "Radix",
-    "jobsCount": 108,
+    "jobsCount": 109,
     "listCompany": "Radix",
-    "sampleJobs": 108
+    "sampleJobs": 109
   },
   {
     "slug": "rankmyapp",
@@ -2655,9 +2655,9 @@
   {
     "slug": "riogaleao",
     "tenantName": "RIOgaleão",
-    "jobsCount": 10,
+    "jobsCount": 11,
     "listCompany": null,
-    "sampleJobs": 10
+    "sampleJobs": 11
   },
   {
     "slug": "same-engenharia",
@@ -2676,9 +2676,9 @@
   {
     "slug": "sanar",
     "tenantName": "Sanar",
-    "jobsCount": 28,
+    "jobsCount": 27,
     "listCompany": null,
-    "sampleJobs": 28
+    "sampleJobs": 27
   },
   {
     "slug": "sancorsegurosbrasil",
@@ -2709,18 +2709,18 @@
     "sampleJobs": 6
   },
   {
-    "slug": "senhasegura",
-    "tenantName": "Segura®",
-    "jobsCount": 0,
-    "listCompany": null,
-    "sampleJobs": 0
-  },
-  {
     "slug": "segura",
     "tenantName": "Segura®",
     "jobsCount": 14,
     "listCompany": null,
     "sampleJobs": 14
+  },
+  {
+    "slug": "senhasegura",
+    "tenantName": "Segura®",
+    "jobsCount": 0,
+    "listCompany": null,
+    "sampleJobs": 0
   },
   {
     "slug": "segurossura",
@@ -2760,9 +2760,9 @@
   {
     "slug": "sharepeoplehub",
     "tenantName": "Share People Hub",
-    "jobsCount": 71,
+    "jobsCount": 73,
     "listCompany": "Hub Fintech",
-    "sampleJobs": 71
+    "sampleJobs": 73
   },
   {
     "slug": "sicredi",
@@ -2816,9 +2816,9 @@
   {
     "slug": "solfacil",
     "tenantName": "Solfácil",
-    "jobsCount": 23,
+    "jobsCount": 22,
     "listCompany": null,
-    "sampleJobs": 23
+    "sampleJobs": 22
   },
   {
     "slug": "solutis",
@@ -2837,9 +2837,9 @@
   {
     "slug": "gruposrm",
     "tenantName": "SRM",
-    "jobsCount": 29,
+    "jobsCount": 28,
     "listCompany": null,
-    "sampleJobs": 29
+    "sampleJobs": 28
   },
   {
     "slug": "stone",
@@ -3096,9 +3096,9 @@
   {
     "slug": "turbi",
     "tenantName": "Turbi",
-    "jobsCount": 24,
+    "jobsCount": 23,
     "listCompany": "Turbi",
-    "sampleJobs": 24
+    "sampleJobs": 23
   },
   {
     "slug": "turbo",
@@ -3159,9 +3159,9 @@
   {
     "slug": "upda",
     "tenantName": "UPDA",
-    "jobsCount": 6,
+    "jobsCount": 7,
     "listCompany": null,
-    "sampleJobs": 6
+    "sampleJobs": 7
   },
   {
     "slug": "upflux",
@@ -3180,9 +3180,9 @@
   {
     "slug": "v4company",
     "tenantName": "V4 Company",
-    "jobsCount": 980,
+    "jobsCount": 997,
     "listCompany": null,
-    "sampleJobs": 980
+    "sampleJobs": 997
   },
   {
     "slug": "vagasbyintera",
@@ -3215,9 +3215,9 @@
   {
     "slug": "gx2",
     "tenantName": "Vem ser GX2",
-    "jobsCount": 8,
+    "jobsCount": 9,
     "listCompany": null,
-    "sampleJobs": 8
+    "sampleJobs": 9
   },
   {
     "slug": "venturus",
@@ -3264,16 +3264,16 @@
   {
     "slug": "viseu",
     "tenantName": "Viseu Secondment",
-    "jobsCount": 53,
+    "jobsCount": 52,
     "listCompany": null,
-    "sampleJobs": 53
+    "sampleJobs": 52
   },
   {
     "slug": "vitru",
     "tenantName": "Vitru Educação",
-    "jobsCount": 360,
+    "jobsCount": 356,
     "listCompany": null,
-    "sampleJobs": 360
+    "sampleJobs": 356
   },
   {
     "slug": "vivopcd",
@@ -3299,9 +3299,9 @@
   {
     "slug": "vocedm",
     "tenantName": "vocedm",
-    "jobsCount": 45,
+    "jobsCount": 46,
     "listCompany": null,
-    "sampleJobs": 45
+    "sampleJobs": 46
   },
   {
     "slug": "vockan",
@@ -3320,9 +3320,9 @@
   {
     "slug": "vortx",
     "tenantName": "Vórtx",
-    "jobsCount": 14,
+    "jobsCount": 15,
     "listCompany": null,
-    "sampleJobs": 14
+    "sampleJobs": 15
   },
   {
     "slug": "votorantim",

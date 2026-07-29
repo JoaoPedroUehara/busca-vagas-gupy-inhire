@@ -86,7 +86,9 @@ function nameMatches(companyName, tenantName) {
     }
     checked++;
     if (checked % 100 === 0) process.stdout.write(`  [inhire] checked ${checked}/${companies.length}, tenants found ${tenantsFound}\n`);
-  }, 16);
+    // Mesmo caso do gupy_presence_full: empresa sem tenant gasta todas as variantes de slug
+    // em serie, entao o ganho vem da concorrencia do pool.
+  }, 28);
 
   console.log(`[inhire] companies checked: ${companies.length}`);
   console.log(`[inhire] InHire tenants matched: ${tenantsFound}`);

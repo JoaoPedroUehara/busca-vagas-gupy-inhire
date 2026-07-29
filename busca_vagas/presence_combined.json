@@ -109,7 +109,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://alicerce.inhire.app/vagas",
-    "inhire_vagas_total": 17
+    "inhire_vagas_total": 16
   },
   {
     "empresa": "Alpargatas",
@@ -133,7 +133,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://alun.inhire.app/vagas",
-    "inhire_vagas_total": 22
+    "inhire_vagas_total": 23
   },
   {
     "empresa": "AMARO",
@@ -157,7 +157,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://amcom.inhire.app/vagas",
-    "inhire_vagas_total": 30
+    "inhire_vagas_total": 28
   },
   {
     "empresa": "Ame Digital",
@@ -421,7 +421,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://cerc.inhire.app/vagas",
-    "inhire_vagas_total": 18
+    "inhire_vagas_total": 19
   },
   {
     "empresa": "CERC Central de Recebíveis",
@@ -605,7 +605,7 @@
     "gupy_url": "https://csu.gupy.io/",
     "inhire": "Sim",
     "inhire_url": "https://csu.inhire.app/vagas",
-    "inhire_vagas_total": 7
+    "inhire_vagas_total": 6
   },
   {
     "empresa": "Cubos",
@@ -645,7 +645,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://deal.inhire.app/vagas",
-    "inhire_vagas_total": 14
+    "inhire_vagas_total": 15
   },
   {
     "empresa": "Decolar.com",
@@ -981,7 +981,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://sharepeoplehub.inhire.app/vagas",
-    "inhire_vagas_total": 71
+    "inhire_vagas_total": 73
   },
   {
     "empresa": "Icatu Seguros",
@@ -1053,7 +1053,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://intertechne.inhire.app/vagas",
-    "inhire_vagas_total": 87
+    "inhire_vagas_total": 89
   },
   {
     "empresa": "Invillia",
@@ -1269,7 +1269,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://mazzatech.inhire.app/vagas",
-    "inhire_vagas_total": 93
+    "inhire_vagas_total": 94
   },
   {
     "empresa": "Meliuz",
@@ -1421,7 +1421,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://objective.inhire.app/vagas",
-    "inhire_vagas_total": 14
+    "inhire_vagas_total": 15
   },
   {
     "empresa": "Olist",
@@ -1517,7 +1517,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://pitang.inhire.app/vagas",
-    "inhire_vagas_total": 11
+    "inhire_vagas_total": 10
   },
   {
     "empresa": "Pitzi",
@@ -1552,20 +1552,12 @@
     "inhire_vagas_total": 42
   },
   {
-    "empresa": "Qexpert",
-    "gupy": "Sim",
-    "gupy_url": "https://qexpert.gupy.io/",
-    "inhire": "",
-    "inhire_url": "",
-    "inhire_vagas_total": ""
-  },
-  {
     "empresa": "Radix",
     "gupy": "",
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://radix.inhire.app/vagas",
-    "inhire_vagas_total": 108
+    "inhire_vagas_total": 109
   },
   {
     "empresa": "Raro Labs",
@@ -1853,7 +1845,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://turbi.inhire.app/vagas",
-    "inhire_vagas_total": 24
+    "inhire_vagas_total": 23
   },
   {
     "empresa": "Uello",

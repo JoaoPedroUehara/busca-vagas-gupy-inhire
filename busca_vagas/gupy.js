@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { DIR, loadCompanies, matchRole, isAllowedLocation, isEntryLevel, buildCompanyMatcher, sleep } = require('./lib.js');
+const { DIR, loadCompanies, matchRole, isAllowedLocation, isEntryLevel, buildCompanyMatcher, pool, sleep } = require('./lib.js');
 
 const QUERIES = [
   'Analista de Dados', 'Data Analyst', 'Analista de BI', 'Business Intelligence',
@@ -50,14 +50,16 @@ async function fetchAll(q) {
 
   const byId = new Map();
   const wpValues = new Set();
-  for (const q of QUERIES) {
-    process.stdout.write(`  [gupy] "${q}" ... `);
-    const { total, jobs } = await fetchAll(q);
-    let kept = 0;
-    for (const j of jobs) {
-      byId.set(j.id, j); // dedup across queries
-    }
-    console.log(`total=${total} fetched=${jobs.length}`);
+  // Os termos de busca sao independentes -> em paralelo (pool modesto: a paginacao de cada
+  // termo continua sequencial, entao a carga real na API da Gupy segue baixa).
+  const porQuery = await pool(QUERIES, async (q) => {
+    const { jobs } = await fetchAll(q);
+    console.log(`  [gupy] "${q}" ... fetched=${jobs.length}`);
+    return jobs;
+  }, 6);
+  for (const jobs of porQuery) {
+    if (!Array.isArray(jobs)) continue; // pool devolve {__error} se o termo falhou
+    for (const j of jobs) byId.set(j.id, j); // dedup entre termos
   }
   console.log(`[gupy] unique jobs pooled: ${byId.size}`);
 

@@ -1,0 +1,3208 @@
+{
+  "CashWay": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Uhuu": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Rhizom": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Aarin": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nova escola": {
+    "encontrado": true,
+    "slug": "novaescola",
+    "titulo": "Associação Nova Escola",
+    "verificadoEm": "2026-07-29"
+  },
+  "Construcode": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Geoflorestas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Talklink": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Eskive": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Colmeia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Ativa": {
+    "encontrado": true,
+    "slug": "ativa",
+    "titulo": "Ativa",
+    "verificadoEm": "2026-07-29"
+  },
+  "Colab": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Eduqo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Kuadro": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "SkiloPay": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ICasei": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Dell": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "AMARO": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Wirecard": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Itaú": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "HP": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Stone": {
+    "encontrado": true,
+    "slug": "stone",
+    "titulo": "Stone",
+    "verificadoEm": "2026-07-29"
+  },
+  "Grupo Boticário": {
+    "encontrado": true,
+    "slug": "grupoboticario",
+    "titulo": "Grupo Boticário",
+    "verificadoEm": "2026-07-29"
+  },
+  "LocaWeb": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Bionexo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Kroton": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "JMV Technology": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nextel": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Rede": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Veloe": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "VR": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "UOL": {
+    "encontrado": true,
+    "slug": "uol",
+    "titulo": "UOL",
+    "verificadoEm": "2026-07-29"
+  },
+  "Rede Globo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Serasa Experian": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco Original": {
+    "encontrado": true,
+    "slug": "original",
+    "titulo": "Original Autos",
+    "verificadoEm": "2026-07-29"
+  },
+  "Decolar.com": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Dafiti": {
+    "encontrado": true,
+    "slug": "dafiti",
+    "titulo": "Dafiti",
+    "verificadoEm": "2026-07-29"
+  },
+  "Anheuser Bush": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pathfind - Otimização de Rotas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Magazine Luiza": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Bexs Banco": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "B3": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Oracle": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Anheuser-Busch InBev": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Red ventures": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Microsoft": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CVC CORP": {
+    "encontrado": true,
+    "slug": "cvccorp",
+    "titulo": "CVC Corp",
+    "verificadoEm": "2026-07-29"
+  },
+  "XP Investimentos": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Hurb": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Serasa": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco Pine": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sinqia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Youse Seguros": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Intelipost": {
+    "encontrado": true,
+    "slug": "intelipost",
+    "titulo": "Grupo Intelipost",
+    "verificadoEm": "2026-07-29"
+  },
+  "Dasa": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BTG+": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "InstaCarro.com": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "SKY Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "RD": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Neogrid": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Localiza Hertz": {
+    "encontrado": true,
+    "slug": "localiza",
+    "titulo": "Localiza&amp;Co",
+    "verificadoEm": "2026-07-29"
+  },
+  "Cia. Hering": {
+    "encontrado": true,
+    "slug": "ciahering",
+    "titulo": "Cia. Hering",
+    "verificadoEm": "2026-07-29"
+  },
+  "Natura": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Midway": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Porto Seguro": {
+    "encontrado": true,
+    "slug": "porto",
+    "titulo": "Porto",
+    "verificadoEm": "2026-07-29"
+  },
+  "Samsung SDS": {
+    "encontrado": true,
+    "slug": "samsungsds",
+    "titulo": "Samsung SDS Latin America",
+    "verificadoEm": "2026-07-29"
+  },
+  "Catho": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "UOL EdTech": {
+    "encontrado": true,
+    "slug": "uoledtech",
+    "titulo": "UOL EdTech",
+    "verificadoEm": "2026-07-29"
+  },
+  "Paraná Banco S/A": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cartão Elo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Afya Educacional": {
+    "encontrado": true,
+    "slug": "afya",
+    "titulo": "Afya",
+    "verificadoEm": "2026-07-29"
+  },
+  "Afya": {
+    "encontrado": true,
+    "slug": "afya",
+    "titulo": "Afya",
+    "verificadoEm": "2026-07-29"
+  },
+  "Claro Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco Bv/Votorantim": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Boa Vista": {
+    "encontrado": true,
+    "slug": "boavista",
+    "titulo": "BOAVISTA TECNOLOGIA",
+    "verificadoEm": "2026-07-29"
+  },
+  "Ambev": {
+    "encontrado": true,
+    "slug": "ambev",
+    "titulo": "Ambev",
+    "verificadoEm": "2026-07-29"
+  },
+  "Necton": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco PAN": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CERC": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Clearsale": {
+    "encontrado": true,
+    "slug": "clearsale",
+    "titulo": "ClearSale",
+    "verificadoEm": "2026-07-29"
+  },
+  "Z Tech": {
+    "encontrado": true,
+    "slug": "ztech",
+    "titulo": "Z-Tech",
+    "verificadoEm": "2026-07-29"
+  },
+  "KaBum!": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "HostGator América Latina": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Lopes Consultoria": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Vivo (Telefônica Brasil)": {
+    "encontrado": true,
+    "slug": "vivo",
+    "titulo": "Vivo (Telefônica Brasil)",
+    "verificadoEm": "2026-07-29"
+  },
+  "Cielo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Livelo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Telecine": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Agile Content": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Alura": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Alelo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Movida": {
+    "encontrado": true,
+    "slug": "movida",
+    "titulo": "Movida",
+    "verificadoEm": "2026-07-29"
+  },
+  "Sulamerica": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Agibank": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco Sofisa": {
+    "encontrado": true,
+    "slug": "bancosofisa",
+    "titulo": "Banco Sofisa",
+    "verificadoEm": "2026-07-29"
+  },
+  "Lojas Riachuelo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Smart Fit": {
+    "encontrado": true,
+    "slug": "smart",
+    "titulo": "TALENTOS SMART",
+    "verificadoEm": "2026-07-29"
+  },
+  "Mastercard": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Redspark": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sodexo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Webmotors": {
+    "encontrado": true,
+    "slug": "webmotors",
+    "titulo": "Webmotors",
+    "verificadoEm": "2026-07-29"
+  },
+  "Bio Ritmo Academia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Boa Vista SCPC": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "PayCertify": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nibo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Amlabs": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Inmetrics": {
+    "encontrado": true,
+    "slug": "inmetrics",
+    "titulo": "Inmetrics S/A",
+    "verificadoEm": "2026-07-29"
+  },
+  "Grupo Abril": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Rede D'Or São Luiz": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Walmart.com": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Qualicorp": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "PwC Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "EY": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BWG": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CERC Central de Recebíveis": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Vagas.com": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Oi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Thomson Reuters": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "GOL Linhas Aéreas Inteligentes": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Carrefour Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Compasso UOL": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Quiver Soluções": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Ez.devs": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "UBS": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco Bmg": {
+    "encontrado": true,
+    "slug": "bancobmg",
+    "titulo": "Banco BMG",
+    "verificadoEm": "2026-07-29"
+  },
+  "Cabonnet": {
+    "encontrado": true,
+    "slug": "cabonnet",
+    "titulo": "Cabonnet",
+    "verificadoEm": "2026-07-29"
+  },
+  "GE": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Santander Tecnología": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "UDS Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco Daycoval": {
+    "encontrado": true,
+    "slug": "bancodaycoval",
+    "titulo": "BANCO DAYCOVAL",
+    "verificadoEm": "2026-07-29"
+  },
+  "Yaman": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Kantar IBOPE Media": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Santander Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Icatu Seguros": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Crefisa": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "FALCONI": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Bosch": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Lojas Renner S.A.": {
+    "encontrado": true,
+    "slug": "lojasrenner",
+    "titulo": "CARREIRAS LOJAS RENNER",
+    "verificadoEm": "2026-07-29"
+  },
+  "Edenred Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "L’OCCITANE Group": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Prudential do Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "The HEINEKEN Company": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Ericsson": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Wiz Soluções": {
+    "encontrado": true,
+    "slug": "wiz",
+    "titulo": "Wiz Co",
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco Carrefour": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Impulso": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mundiale": {
+    "encontrado": true,
+    "slug": "mundiale",
+    "titulo": "Mundiale",
+    "verificadoEm": "2026-07-29"
+  },
+  "CESAR": {
+    "encontrado": true,
+    "slug": "cesar",
+    "titulo": "Vagas CESAR",
+    "verificadoEm": "2026-07-29"
+  },
+  "TIM Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Melhor Envio": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Padtec S/A": {
+    "encontrado": true,
+    "slug": "padtec",
+    "titulo": "Padtec",
+    "verificadoEm": "2026-07-29"
+  },
+  "Gerdau": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Digix Soluções em TI": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Superdigital Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Doctoralia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nimbi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Loja do Mecânico - Grupo GurgelMix": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "KPMG": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "SMARKIO Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "GetNet": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Tempest Security Intelligence": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Reclame aqui": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Safra": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nokia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sky.one": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Embraer": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Open English": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "C&A": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Psafe": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "HDI Seguros": {
+    "encontrado": true,
+    "slug": "hdiseguros",
+    "titulo": "HDI Seguros",
+    "verificadoEm": "2026-07-29"
+  },
+  "godaddy": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Fast Shop": {
+    "encontrado": true,
+    "slug": "fastshop",
+    "titulo": "Fast Shop",
+    "verificadoEm": "2026-07-29"
+  },
+  "solutidigital": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Instituto de Pesquisas Eldorado": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "banrisul": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Conexia Educação": {
+    "encontrado": true,
+    "slug": "conexia",
+    "titulo": "Conexia",
+    "verificadoEm": "2026-07-29"
+  },
+  "Cogna": {
+    "encontrado": true,
+    "slug": "cogna",
+    "titulo": "Cogna",
+    "verificadoEm": "2026-07-29"
+  },
+  "Digix": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Johnson&Johnson": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "99jobs": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Asap Log": {
+    "encontrado": true,
+    "slug": "asaplog",
+    "titulo": "zASAP Log",
+    "verificadoEm": "2026-07-29"
+  },
+  "Finch Soluções": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BTG": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Brasilprev": {
+    "encontrado": true,
+    "slug": "brasilprev",
+    "titulo": "Brasilprev",
+    "verificadoEm": "2026-07-29"
+  },
+  "Edenred": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Lello": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Hering": {
+    "encontrado": true,
+    "slug": "hering",
+    "titulo": "HERING",
+    "verificadoEm": "2026-07-29"
+  },
+  "Cloudwalk": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Hewlett Packard Enterprise": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Unilever": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Bradesco": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Carrefour": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CPQI": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Panasonic": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Auvo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Volvo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Siemens": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Atento": {
+    "encontrado": true,
+    "slug": "atento",
+    "titulo": "Atento - Impulsionados por IA. Conectados por pessoas.",
+    "verificadoEm": "2026-07-29"
+  },
+  "SafraPay": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Alpargatas": {
+    "encontrado": true,
+    "slug": "alpargatas",
+    "titulo": "Alpargatas",
+    "verificadoEm": "2026-07-29"
+  },
+  "Bom trato": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco Bari": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Tokio Marine": {
+    "encontrado": true,
+    "slug": "tokiomarine",
+    "titulo": "Tokio Marine Seguradora",
+    "verificadoEm": "2026-07-29"
+  },
+  "Foursys": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Bancoob": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Carsystem": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Samsung Mobile": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Global Hitss": {
+    "encontrado": true,
+    "slug": "globalhitss",
+    "titulo": "Hitss Brasil",
+    "verificadoEm": "2026-07-29"
+  },
+  "HI Platform": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Grupo A Educação": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Reply": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sicoob": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Guide Investimentos": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "GFT Group": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Toyota do Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Curriculum.com.br": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Akross": {
+    "encontrado": true,
+    "slug": "akross",
+    "titulo": "Akross",
+    "verificadoEm": "2026-07-29"
+  },
+  "Fulltime Gestora de Dados": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pitang": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "D-Link Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Confitec": {
+    "encontrado": true,
+    "slug": "confitec",
+    "titulo": "Confitec",
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco do Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ISS Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Ambar": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Herbalife Nutrition": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "TEMPO ASSIST": {
+    "encontrado": true,
+    "slug": "tempo",
+    "titulo": "Tempo",
+    "verificadoEm": "2026-07-29"
+  },
+  "OpenTech Software e Rastreamento": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ePharma - Inovação, Integração e Cuidado em Saúde": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BB Tecnologia e Serviços": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "IVIA": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Planneta Educação": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "FORTLEV": {
+    "encontrado": true,
+    "slug": "fortlev",
+    "titulo": "Fortlev",
+    "verificadoEm": "2026-07-29"
+  },
+  "Tray Plataforma de E-commerce": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "T-Systems do Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Brink´s Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pontaltech": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cetelem": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Omni Banco & Financeira": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mobit Brasil Ltda": {
+    "encontrado": true,
+    "slug": "mobit",
+    "titulo": "Mobit Tecnologia",
+    "verificadoEm": "2026-07-29"
+  },
+  "Amdocs": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Senac São Paulo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BRLink": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco Yamaha Motor Do Brasil": {
+    "encontrado": true,
+    "slug": "yamaha",
+    "titulo": "Grupo Yamaha Brasil",
+    "verificadoEm": "2026-07-29"
+  },
+  "Lojas Marisa": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "RSI": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Enel Group": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Coteminas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "S.I.N. Sistema de Implante S.A.": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cast group": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Repom S.A.": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Vector": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "NSI - New Soft Intelligence": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CSU CardSystem": {
+    "encontrado": true,
+    "slug": "csu",
+    "titulo": "CSU Digital",
+    "verificadoEm": "2026-07-29"
+  },
+  "CTIS Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mirante Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Bancorbrás": {
+    "encontrado": true,
+    "slug": "bancorbras",
+    "titulo": "Grupo Bancorbrás",
+    "verificadoEm": "2026-07-29"
+  },
+  "Synchro": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "FItec": {
+    "encontrado": true,
+    "slug": "fitec",
+    "titulo": "FITeclabs.",
+    "verificadoEm": "2026-07-29"
+  },
+  "CPqD": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mundivox Communications": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Econet Editora Empresarial": {
+    "encontrado": true,
+    "slug": "econet",
+    "titulo": "Econet Editora Empresarial",
+    "verificadoEm": "2026-07-29"
+  },
+  "DBServer": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Iteris Consultoria e Software": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Insights by Kantar": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cruzeiro do Sul Educacional": {
+    "encontrado": true,
+    "slug": "cruzeirodosuleducacional",
+    "titulo": "Cruzeiro do Sul Educacional",
+    "verificadoEm": "2026-07-29"
+  },
+  "Extreme Digital Solutions - EDS": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pernambucanas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Ultra": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Globalweb": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Energisa": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Electrolux": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Algar Tech": {
+    "encontrado": true,
+    "slug": "algar",
+    "titulo": "ALGAR",
+    "verificadoEm": "2026-07-29"
+  },
+  "Agile Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Allianz": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Squadra Digital": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "MUXI": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Neoenergia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Hypera": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "VLI Logística": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "LTM Fidelidade": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sidia Instituto de Ciência e Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "RNP": {
+    "encontrado": true,
+    "slug": "rnp",
+    "titulo": "RNP",
+    "verificadoEm": "2026-07-29"
+  },
+  "Sun Microsystems": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Duratex": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mandic Cloud Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Embratel": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Benteler Group": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Grupo Portfolio": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Lecom Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Harpia Cloud": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mercado Eletrônico": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Telemont": {
+    "encontrado": true,
+    "slug": "telemont",
+    "titulo": "TELEMONT",
+    "verificadoEm": "2026-07-29"
+  },
+  "Eicon": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Grupo Travelex Confidence": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sygenta Digital Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Grupo NotreDame": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sascar": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Leroy Merlin": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "GVT": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Alcoa": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CPFL": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Grupo MAG": {
+    "encontrado": true,
+    "slug": "grupomag",
+    "titulo": "Grupo MAG",
+    "verificadoEm": "2026-07-29"
+  },
+  "pulseoficial": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "consinco": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "target-sistemas": {
+    "encontrado": true,
+    "slug": "targetsistemas",
+    "titulo": "Target Sistemas",
+    "verificadoEm": "2026-07-29"
+  },
+  "MDS Group": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "tasken": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "boschbrasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Compugraf": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "companhiasiderurgicanacional": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Burger King": {
+    "encontrado": true,
+    "slug": "burgerking",
+    "titulo": "Burger King Brasil",
+    "verificadoEm": "2026-07-29"
+  },
+  "JBS": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Tecban": {
+    "encontrado": true,
+    "slug": "tecban",
+    "titulo": "Tecban",
+    "verificadoEm": "2026-07-29"
+  },
+  "GPA": {
+    "encontrado": true,
+    "slug": "gpa",
+    "titulo": "Lojas - GPA",
+    "verificadoEm": "2026-07-29"
+  },
+  "Positivo": {
+    "encontrado": true,
+    "slug": "positivo",
+    "titulo": "Grupo Positivo",
+    "verificadoEm": "2026-07-29"
+  },
+  "Creditas": {
+    "encontrado": true,
+    "slug": "creditas",
+    "titulo": "Creditas Soluções Financeiras",
+    "verificadoEm": "2026-07-29"
+  },
+  "Gympass": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nubank": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "iFood": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "OLX": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pipefy": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Movile": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "sumUp": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Banco ABC": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "MovilePay": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Amazon": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Easynvest": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "WildLife": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Facebook": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Luizalabs": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Supersoft Sistemas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Ouro Verde": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Netshoes": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Loft": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pagseguro Pagbank": {
+    "encontrado": true,
+    "slug": "pagseguro",
+    "titulo": "PagBank",
+    "verificadoEm": "2026-07-29"
+  },
+  "Uber": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "C6 Bank": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Guiabolso": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Grow Mobility": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "VTEX": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Escale": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "QuintoAndar": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Xerpa": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Alice": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cora": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Imagem - Soluções de Inteligência Geográfica": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Neon": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Inter": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Vitta": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "QueroEducação": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Enjoei": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Geekie": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Kovi": {
+    "encontrado": true,
+    "slug": "kovi",
+    "titulo": "KOVI ❤️",
+    "verificadoEm": "2026-07-29"
+  },
+  "Picpay": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mercado Livre": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Ame Digital": {
+    "encontrado": true,
+    "slug": "ame",
+    "titulo": "Associação Amigos Metroviários dos Excepcionais (AME)",
+    "verificadoEm": "2026-07-29"
+  },
+  "will bank": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Loggi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "PlayKids": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "tembici.": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mercado Pago": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Zoop": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Lendico": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BeBlue": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "mundipagg": {
+    "encontrado": true,
+    "slug": "mundipagg",
+    "titulo": "Mundipagg",
+    "verificadoEm": "2026-07-29"
+  },
+  "ClearSale": {
+    "encontrado": true,
+    "slug": "clearsale",
+    "titulo": "ClearSale",
+    "verificadoEm": "2026-07-29"
+  },
+  "CargoX": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Conductor": {
+    "encontrado": true,
+    "slug": "conductor",
+    "titulo": "Conductor | Tecnologia em Meios de Pagamento",
+    "verificadoEm": "2026-07-29"
+  },
+  "Hotmart": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Jusbrasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Maxmilhas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Petlove.com.br": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pag!": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Idwall": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "MadeiraMadeira": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Descomplica": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pismo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "iti Itaú": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Neoway": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Resultados digitais": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Boacompra": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pagar.me": {
+    "encontrado": true,
+    "slug": "pagarme",
+    "titulo": "Pagar.me",
+    "verificadoEm": "2026-07-29"
+  },
+  "Olist": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "DocuSign": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "B2W Digital": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Avenue": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Ebanx": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Gupy": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Contabilizei": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Buscapé/Zoom": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ZAP": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Rappi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mosaico": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "REBEL/Open CO": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Warren": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Runa": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Konduto": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "GeekHunter": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Listo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Passei Direto": {
+    "encontrado": true,
+    "slug": "passeidireto",
+    "titulo": "Passei Direto",
+    "verificadoEm": "2026-07-29"
+  },
+  "RecargaPay": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Revelo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Adyen": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Conta Azul": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Dock": {
+    "encontrado": true,
+    "slug": "dock",
+    "titulo": "Dock",
+    "verificadoEm": "2026-07-29"
+  },
+  "Axur": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Evino": {
+    "encontrado": true,
+    "slug": "evino",
+    "titulo": "Evino + Grand Cru",
+    "verificadoEm": "2026-07-29"
+  },
+  "Turbi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Docket": {
+    "encontrado": true,
+    "slug": "docket",
+    "titulo": "Docket Brasil",
+    "verificadoEm": "2026-07-29"
+  },
+  "Grupo ZAP": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "James Delivery": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Moobie": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Vindi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pitzi": {
+    "encontrado": true,
+    "slug": "pitzi",
+    "titulo": "Pitzi Carreiras",
+    "verificadoEm": "2026-07-29"
+  },
+  "Remessa Online": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Unico IDTech": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nexoos": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "NeoMed": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "TruckPad": {
+    "encontrado": true,
+    "slug": "truckpad",
+    "titulo": "TruckPad",
+    "verificadoEm": "2026-07-29"
+  },
+  "HeroSpark": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Gamers Club": {
+    "encontrado": true,
+    "slug": "gamersclub",
+    "titulo": "Gamers Club",
+    "verificadoEm": "2026-07-29"
+  },
+  "Antecipa": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "EduK": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Phoebus": {
+    "encontrado": true,
+    "slug": "phoebus",
+    "titulo": "Phoebus Tecnologia",
+    "verificadoEm": "2026-07-29"
+  },
+  "Matera": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Meliuz": {
+    "encontrado": true,
+    "slug": "meliuz",
+    "titulo": "Méliuz",
+    "verificadoEm": "2026-07-29"
+  },
+  "Noverde": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "iugu": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Elife": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "inGaia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "SenseData": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "GreenMile": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mandaê": {
+    "encontrado": true,
+    "slug": "mandae",
+    "titulo": "Mandae",
+    "verificadoEm": "2026-07-29"
+  },
+  "Dotz": {
+    "encontrado": true,
+    "slug": "dotz",
+    "titulo": "Dotz",
+    "verificadoEm": "2026-07-29"
+  },
+  "Hub Fintech": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pontomais": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Yapay": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Ignição digital": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Rock Content": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mlabs": {
+    "encontrado": true,
+    "slug": "mlabs",
+    "titulo": "Carreiras mLabs",
+    "verificadoEm": "2026-07-29"
+  },
+  "Magnetis Investimentos": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "TradersClub": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Runrun.it": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nodis": {
+    "encontrado": true,
+    "slug": "nodis",
+    "titulo": "Nodis",
+    "verificadoEm": "2026-07-29"
+  },
+  "Bemobi": {
+    "encontrado": true,
+    "slug": "bemobi",
+    "titulo": "Bemobi",
+    "verificadoEm": "2026-07-29"
+  },
+  "Squid": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Jüssi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cortex": {
+    "encontrado": true,
+    "slug": "cortex",
+    "titulo": "Cortex",
+    "verificadoEm": "2026-07-29"
+  },
+  "Facily": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BLU365": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Start-se": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "MarketUP": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Avante.com.vc": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Oowlish": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Docway": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "SmartBank": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mutant": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BizCapital": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Stilingue": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ESX": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ProJuris": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Blu": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ClickBus": {
+    "encontrado": true,
+    "slug": "clickbus",
+    "titulo": "ClickBus",
+    "verificadoEm": "2026-07-29"
+  },
+  "Eduzz": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mobicare": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Carguero": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Agriness": {
+    "encontrado": true,
+    "slug": "agriness",
+    "titulo": "Agriness",
+    "verificadoEm": "2026-07-29"
+  },
+  "WeWork": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Superlógica Tecnologias": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "PayGo Pagamentos": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pravaler": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mobly": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "OmniChat": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sambatech": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Fretebras": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "HAVAN": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Delivery Much": {
+    "encontrado": true,
+    "slug": "deliverymuch",
+    "titulo": "Delivery Much",
+    "verificadoEm": "2026-07-29"
+  },
+  "penseavanti": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Looqbox": {
+    "encontrado": true,
+    "slug": "looqbox",
+    "titulo": "Looqbox",
+    "verificadoEm": "2026-07-29"
+  },
+  "Acesso": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Arquivei": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Next (oficial)": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Afterverse": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Avita": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BS2 Hub": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Agilize": {
+    "encontrado": true,
+    "slug": "agilize",
+    "titulo": "Agilize Contabilidade Online",
+    "verificadoEm": "2026-07-29"
+  },
+  "Beleza na Web": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Grafeno": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Orbia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nexaas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "FestaLab": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Affero Lab": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Conquer": {
+    "encontrado": true,
+    "slug": "conquer",
+    "titulo": "Conquer Business School",
+    "verificadoEm": "2026-07-29"
+  },
+  "Omie": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Platform Builders": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cobli": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Repassa": {
+    "encontrado": true,
+    "slug": "repassa",
+    "titulo": "CARREIRAS REPASSA",
+    "verificadoEm": "2026-07-29"
+  },
+  "Nuvemshop": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Convenia": {
+    "encontrado": true,
+    "slug": "convenia",
+    "titulo": "Convenia",
+    "verificadoEm": "2026-07-29"
+  },
+  "Getninjas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Allya": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Digio": {
+    "encontrado": true,
+    "slug": "digio",
+    "titulo": "Digio",
+    "verificadoEm": "2026-07-29"
+  },
+  "Fliper": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Winnin": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Movidesk": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Flash": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Yuca": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Elo7": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Voxy": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Involves": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Xerpay": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "M4U": {
+    "encontrado": true,
+    "slug": "m4u",
+    "titulo": "M4U",
+    "verificadoEm": "2026-07-29"
+  },
+  "SantoDigital": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ThoughtWorks": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "TOTVS": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sensedia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Keyrus": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ilegra": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Daitan": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Invilia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Accenture": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Dextra": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Invillia": {
+    "encontrado": true,
+    "slug": "invillia",
+    "titulo": "Invillia",
+    "verificadoEm": "2026-07-29"
+  },
+  "IBM": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Genial Investimentos": {
+    "encontrado": true,
+    "slug": "genial",
+    "titulo": "Genial Investimentos",
+    "verificadoEm": "2026-07-29"
+  },
+  "BRQ": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Concrete Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Delloite": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "GO. K": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Dextra Sistemas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Linx": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Vortigo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "POATEK": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Zup Innovation": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "e-Core": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Leega": {
+    "encontrado": true,
+    "slug": "leega",
+    "titulo": "Leega Consultoria",
+    "verificadoEm": "2026-07-29"
+  },
+  "Avanade": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CI&T": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Jera": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cubos": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Softplan Planejamento e Sistemas": {
+    "encontrado": true,
+    "slug": "softplan",
+    "titulo": "Softplan",
+    "verificadoEm": "2026-07-29"
+  },
+  "CoreBiz": {
+    "encontrado": true,
+    "slug": "corebiz",
+    "titulo": "Corebiz",
+    "verificadoEm": "2026-07-29"
+  },
+  "Semantix": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Radix": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "EloGroup": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "HBSIS": {
+    "encontrado": true,
+    "slug": "hbsis",
+    "titulo": "HBSIS",
+    "verificadoEm": "2026-07-29"
+  },
+  "Luxfacta": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Avenue code": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Webjump": {
+    "encontrado": true,
+    "slug": "webjump",
+    "titulo": "WEBJUMP",
+    "verificadoEm": "2026-07-29"
+  },
+  "Capco": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Venturus": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sciensa": {
+    "encontrado": true,
+    "slug": "sciensa",
+    "titulo": "SCIENSA INOVACAO E ESTRATEGIA DIGITAL LTDA",
+    "verificadoEm": "2026-07-29"
+  },
+  "Kunumi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ADP": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "maxxidata": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "DXC Technology": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BlueShift Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Taking": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CWI Software": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "TIVIT": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Everis": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Codeminer42": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "WEX": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Altran": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Avansys": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Fcamara": {
+    "encontrado": true,
+    "slug": "fcamara",
+    "titulo": "FCamara",
+    "verificadoEm": "2026-07-29"
+  },
+  "Spread Tecnologia": {
+    "encontrado": true,
+    "slug": "spread",
+    "titulo": "Spread Tecnologia",
+    "verificadoEm": "2026-07-29"
+  },
+  "LinkApi Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Qexpert": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "K21": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Raro Labs": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Stefanini": {
+    "encontrado": true,
+    "slug": "stefanini",
+    "titulo": "Stefanini Group",
+    "verificadoEm": "2026-07-29"
+  },
+  "Qintess": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Agility Networks Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Meta": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Capgemini": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Solutis Tecnologias": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sonda Ativas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "RFS - Radio Frequency Systems": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cognizant": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Vizir Software Studio": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mooven Consulting": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "VR SOFTWARE": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Avivatec": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Triad Systems": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "MJV Technology & Innovation": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CodeIT Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Arbit": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Neobpo": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "K2 Partnering Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sofist": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CrossKnowledge": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Tinnova": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "SVLabs - The Systems Validation Company": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ACCT | Consulting & Technology": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "MazzaFC Tecnologia da Informação": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "BRQ Digital Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Be Resolution Softwares Group": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "iLink Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "MC1 - Win The Market": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CWS": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "MG Info": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mout'S | Soluções em TI": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Alterdata Software": {
+    "encontrado": true,
+    "slug": "alterdata",
+    "titulo": "Alterdata Software",
+    "verificadoEm": "2026-07-29"
+  },
+  "Unisys": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Concentrix": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "SiDi": {
+    "encontrado": true,
+    "slug": "sidi",
+    "titulo": "SiDi",
+    "verificadoEm": "2026-07-29"
+  },
+  "Montreal Oficial": {
+    "encontrado": true,
+    "slug": "montreal",
+    "titulo": "Montreal | Tecnologia e Inovação",
+    "verificadoEm": "2026-07-29"
+  },
+  "Beedoo Software": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Deal": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Indra": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "TQI": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "SONDA": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "G&P": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Verity": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nexxera": {
+    "encontrado": true,
+    "slug": "nexxera",
+    "titulo": "Nexxera",
+    "verificadoEm": "2026-07-29"
+  },
+  "Atos": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "4Linux": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "DBC Company": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Engineering Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Iterative;": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Tegra": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Objective Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Agência Zetta": {
+    "encontrado": true,
+    "slug": "agencia",
+    "titulo": "Agência de entretenimento em São Paulo",
+    "verificadoEm": "2026-07-29"
+  },
+  "Materialize": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Diletta Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "RDI SOFTWARE": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Eteg": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Spassu Tecnologia e Serviços": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "DB1": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Vertem": {
+    "encontrado": true,
+    "slug": "vertem",
+    "titulo": "Vertem",
+    "verificadoEm": "2026-07-29"
+  },
+  "Coopersystem": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Programmer's - Beyond IT": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ília culture": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "dti digital": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Opah IT": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ESIG Software e Consultoria em TI": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Resource IT Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Tata Consultancy Services": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Senior Sistemas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mazzatech Systems & Outsourcing": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CITS": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "uMov.me": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Viasoft": {
+    "encontrado": true,
+    "slug": "viasoft",
+    "titulo": "VIASOFT",
+    "verificadoEm": "2026-07-29"
+  },
+  "Ábaco Tecnologia de Informação": {
+    "encontrado": true,
+    "slug": "abaco",
+    "titulo": "Colégio Ábaco",
+    "verificadoEm": "2026-07-29"
+  },
+  "GAVB": {
+    "encontrado": true,
+    "slug": "gavb",
+    "titulo": "GAVB",
+    "verificadoEm": "2026-07-29"
+  },
+  "act digital": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Monitora Soluções Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Best.Projects": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Grupo FCamara": {
+    "encontrado": true,
+    "slug": "fcamara",
+    "titulo": "FCamara",
+    "verificadoEm": "2026-07-29"
+  },
+  "Cadmus": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mastermaq": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "WK sistemas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "logicalisbr": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ish-tecnologia": {
+    "encontrado": true,
+    "slug": "ishtecnologia",
+    "titulo": "ISH Tecnologia",
+    "verificadoEm": "2026-07-29"
+  },
+  "Spassu": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Open Labs SA": {
+    "encontrado": true,
+    "slug": "openlabs",
+    "titulo": "Open Labs",
+    "verificadoEm": "2026-07-29"
+  },
+  "Blend IT Consultoria": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Storm Group": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Wipro Limited": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cedro Technologies": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "processmind": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "cuboconnect": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Magna Sistemas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "AMCOM": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Ebix": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Caelum": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Digidata": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "GSW Soluções": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Metatron": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Beyond Soluções": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Siteware": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "topdown-sistemas": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Gauge Digital Consulting": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Trinca": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Qconcursos": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "dot-digital-group": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Lemobs": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Huia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "WPensar": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "CSP Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Now3": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "W3haus": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Cadastra": {
+    "encontrado": true,
+    "slug": "cadastra",
+    "titulo": "Cadastra",
+    "verificadoEm": "2026-07-29"
+  },
+  "Fbiz": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Exati Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Artplan": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Snowman Labs": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mutato": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Moovin Plataforma E-commerce": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Kangu": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Uello": {
+    "encontrado": true,
+    "slug": "uello",
+    "titulo": "CARREIRAS UELLO",
+    "verificadoEm": "2026-07-29"
+  },
+  "BossaBox": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Vulpi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Menu": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Donus": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "ConsigaMais+": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Escola do Marketing Digital": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Techlead IT Solutions": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Bcredi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Agência Global": {
+    "encontrado": true,
+    "slug": "agencia",
+    "titulo": "Agência de entretenimento em São Paulo",
+    "verificadoEm": "2026-07-29"
+  },
+  "Paim Comunicação": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Sólides Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Publicis Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Awari": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "PeoplePRO": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Pontte": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "FIT - Instituto de Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "GarupaApp": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Orizon": {
+    "encontrado": true,
+    "slug": "orizon",
+    "titulo": "Orizon Valorização de Resíduos",
+    "verificadoEm": "2026-07-29"
+  },
+  "Marketdata": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Konecta Brasil": {
+    "encontrado": true,
+    "slug": "konecta",
+    "titulo": "Konecta Brazil Outsourcing Ltda",
+    "verificadoEm": "2026-07-29"
+  },
+  "Paipe Tecnologia e Inovação": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Lastlink": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Amparo Saúde": {
+    "encontrado": true,
+    "slug": "amparosaude",
+    "titulo": "Amparo Saúde",
+    "verificadoEm": "2026-07-29"
+  },
+  "Get In": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Alicerce Educação": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Matchbox Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Letz": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Fornax Tecnologia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Mimic": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Robô Laura": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "TiqueTaque": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Zee.Dog": {
+    "encontrado": true,
+    "slug": "zeedog",
+    "titulo": "Zee.Dog",
+    "verificadoEm": "2026-07-29"
+  },
+  "Cobasi": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Nova Futura Investimentos": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Bidu Corretora": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Synapcom Full Commerce": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Caju": {
+    "encontrado": true,
+    "slug": "caju",
+    "titulo": "Caju",
+    "verificadoEm": "2026-07-29"
+  },
+  "Lockton Brasil": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "vhsys - Sistema de Gestão Empresarial": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Peixe Urbano": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "IT Mídia": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Labi Exames": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "A de Agro": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Vet Smart": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  },
+  "Grupo Fleury": {
+    "encontrado": false,
+    "verificadoEm": "2026-07-29"
+  }
+}

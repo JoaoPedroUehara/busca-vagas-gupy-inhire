@@ -1,6 +1,7 @@
 // Coleta slugs de tenants InHire da web aberta (Wayback + urlscan + Common Crawl).
 // Gera: wb_app.txt, us_app_paged.json, cc_app.jsonl  (consumidos por validate_inhire.js)
 const fs = require('fs'), path = require('path');
+const { pool } = require('./lib.js');
 const DIR = __dirname;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
@@ -45,23 +46,23 @@ async function commonCrawl(nIndexes = 12) {
     const info = JSON.parse(await getText('https://index.commoncrawl.org/collinfo.json'));
     indexes = info.slice(0, nIndexes).map(x => x.id);
   } catch (e) { console.log('[commoncrawl] collinfo falhou:', e.message); return; }
-  const out = fs.createWriteStream(path.join(DIR, 'cc_app.jsonl'));
-  let lines = 0;
-  for (const idx of indexes) {
+  // Indices sao independentes entre si -> consulta em paralelo (pool modesto para nao
+  // martelar o index.commoncrawl.org). Ordena a saida pelo indice original so para o
+  // arquivo continuar deterministico entre rodadas.
+  const parts = await pool(indexes, async (idx) => {
     try {
       const t = await getText(`https://index.commoncrawl.org/${idx}-index?url=*.inhire.app&output=json&fl=url`);
-      out.write(t.endsWith('\n') ? t : t + '\n');
-      lines += t.split(/\n/).filter(Boolean).length;
-      process.stdout.write(`  [commoncrawl] ${idx} ok (acumulado ${lines})\n`);
-    } catch (e) { process.stdout.write(`  [commoncrawl] ${idx} vazio/erro\n`); }
-    await sleep(300);
-  }
-  out.end();
+      process.stdout.write(`  [commoncrawl] ${idx} ok\n`);
+      return t.endsWith('\n') ? t : t + '\n';
+    } catch (e) { process.stdout.write(`  [commoncrawl] ${idx} vazio/erro\n`); return ''; }
+  }, 4);
+  const body = parts.filter(p => typeof p === 'string' && p).join('');
+  fs.writeFileSync(path.join(DIR, 'cc_app.jsonl'), body);
+  console.log('[commoncrawl] linhas:', body.split(/\n/).filter(Boolean).length);
 }
 
 (async () => {
-  await wayback();
-  await urlscan();
-  await commonCrawl(12);
+  // As tres fontes batem em hosts diferentes e escrevem arquivos diferentes -> paralelo.
+  await Promise.all([wayback(), urlscan(), commonCrawl(12)]);
   console.log('[harvest] concluido -> wb_app.txt, us_app_paged.json, cc_app.jsonl');
 })();

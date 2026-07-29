@@ -130,19 +130,62 @@ educação, tech, grupo…) ou compact-substring forte. Sem isso dá falso posit
 | # | Script | Entrada → Saída |
 |---|--------|-----------------|
 | 1 | `extrair_empresas.ps1` | `empresas.xlsx` → `companies.json` |
-| 2 | `gupy.js` | companies.json → `gupy_results.json`, `gupy_presence.json` |
-| 3 | `gupy_presence_full.js` | companies.json → `gupy_presence_full.json` (presença por subdomínio) |
-| 4 | `empregare.js` | companies.json → `empregare_results.json` (busca via tool MCP `buscar_vagas`) |
-| 5 | `ciadetalentos.js` | companies.json → `ciadetalentos_results.json` (programas trainee/estágio) |
-| 6 | `eureca.js` | companies.json → `eureca_results.json` (programas trainee/estágio, com prazo) |
-| 7 | `inhire.js` | companies.json → `inhire_tenants.json` (chute de slug pela lista) |
-| 8 | `harvest_inhire.js` | web → `wb_app.txt`, `us_app_paged.json`, `cc_app.jsonl` |
-| 9 | `validate_inhire.js` | slugs → `inhire_all_tenants.json`, `inhire_all_vagas.json` |
-| 10 | `inhire_saida.js` | → `inhire_results.json`, `inhire_new_companies.json` |
-| 11 | `merge.js` | as 5 fontes → `vagas_final.json` (dedup) |
-| 11b | `stamp_dates.js` | mantém `seen.json` (data da 1ª aparição) → grava `detectado_em` em cada vaga |
-| 12 | `presence.js` | → `presence_combined.json` |
-| 13 | `build_xlsx.ps1` | tudo → `..\vagas_gupy_inhire.xlsx` |
+| 2 | `gupy_presence_full.js` | companies.json + `gupy_presence_cache.json` → `gupy_presence_full.json` (roda **sozinho** — ver abaixo) |
+| 3 | **↓ os 6 em paralelo ↓** | |
+| | `gupy.js` | companies.json → `gupy_results.json`, `gupy_presence.json` |
+| | `empregare.js` | companies.json → `empregare_results.json` (tool MCP `buscar_vagas`) |
+| | `ciadetalentos.js` | companies.json → `ciadetalentos_results.json` (programas trainee/estágio) |
+| | `eureca.js` | companies.json → `eureca_results.json` (programas trainee/estágio, com prazo) |
+| | `inhire.js` | companies.json → `inhire_tenants.json` (chute de slug pela lista) |
+| | `harvest_inhire.js` | web → `wb_app.txt`, `us_app_paged.json`, `cc_app.jsonl` |
+| 4 | `validate_inhire.js` | slugs → `inhire_all_tenants.json`, `inhire_all_vagas.json` |
+| 5 | `inhire_saida.js` | → `inhire_results.json`, `inhire_new_companies.json` |
+| 6 | `merge.js` | as 5 fontes → `vagas_final.json` (dedup) |
+| 7 | `stamp_dates.js` | mantém `seen.json` (data da 1ª aparição) → grava `detectado_em` em cada vaga |
+| 8 | `presence.js` | → `presence_combined.json` |
+| 9 | `build_xlsx.ps1` | tudo → `..\vagas_gupy_inhire.xlsx` |
+
+O `rodar_tudo.ps1` imprime o **tempo de cada etapa** no fim (e de cada script dentro da etapa
+paralela), então dá para ver na hora quem virou gargalo.
+
+### Por que a ordem é essa (e o que NÃO paralelizar)
+
+O `rodar_tudo.ps1` roda os coletores de fonte **em paralelo** (Start-Job), porque eles não
+dependem uns dos outros: leem `companies.json` e escrevem arquivos distintos. O tempo da etapa
+passa a ser o do script mais lento, não a soma. Só o encadeamento da InHire
+(descoberta → validação → saída) e a consolidação final são sequenciais, porque cada passo
+consome o arquivo do anterior.
+
+Duas exceções aprendidas na marra, ambas com a **gupy.io**:
+
+- **`gupy_presence_full.js` roda sozinho, fora do bloco paralelo.** São centenas de requisições
+  a `<slug>.gupy.io`; disputando banda com os outros coletores, a Gupy derruba conexão e o
+  `probe()` registra a falha como "empresa sem página" — a aba Presença veio com 128 empresas
+  em vez de 130. Sozinho, o resultado é estável.
+- **Não aumente a concorrência desse pool.** Testado em 32: não ficou mais rápido (52s vs 51s)
+  e ainda achou **menos** empresas (125 vs 130), pelo mesmo motivo. 16 é o ponto de equilíbrio.
+  No `inhire.js` o mesmo aumento (16 → 28) foi seguro e cortou o tempo pela metade — a API da
+  InHire aguenta; a da Gupy não.
+
+Moral: neste pipeline, mais concorrência contra o mesmo host degrada os dados **em silêncio**,
+porque um `catch` que devolve "não achei" é indistinguível de "não existe". Ao mexer aqui,
+compare sempre a contagem de empresas/tenants com a rodada anterior, não só o cronômetro.
+
+### Cache incremental da presença Gupy
+
+`gupy_presence_full.js` mantém `gupy_presence_cache.json` para não revarrer as 737 empresas a
+cada rodada — era o passo mais caro do pipeline (~60s):
+
+- **Encontrada:** reconfere só o slug já conhecido (1 requisição em vez de até 7). Se cair,
+  faz varredura completa — a empresa pode ter trocado de slug, não necessariamente saído da Gupy.
+- **Não encontrada:** vale por `TTL_DIAS` (7). Empresa entra em ATS raramente, e é esse grupo
+  (a maioria da lista) que custa 7 requisições cada.
+- **Falha de rede ≠ ausência:** o `probe()` separa `ausente` (a Gupy respondeu que não existe)
+  de `incerto` (rede caiu, 429, 5xx). Só `ausente` vira negativo no cache. Sem essa distinção,
+  um blip de rede sumiria com a empresa da planilha até o TTL vencer.
+
+Efeito: **rodada fria ~154s, rodada quente ~13s.** Para forçar varredura completa, apague o
+`gupy_presence_cache.json`.
 
 `lib.js` = helpers compartilhados (normalização, `matchRole` de cargo, `isAllowedLocation`/`isBrasiliaDF` de local, `isEntryLevel` de senioridade, `buildCompanyMatcher` de empresa, `slugify` do título da vaga, pool de concorrência).
 `seen.json` = histórico persistente `{ chave → data }` da 1ª vez que cada vaga foi vista (não apagar; é o que alimenta a coluna "Detectada em").
