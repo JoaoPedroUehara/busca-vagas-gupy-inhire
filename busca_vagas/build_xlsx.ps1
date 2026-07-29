@@ -6,9 +6,12 @@ $vagas    = Get-Content "$dir\vagas_final.json" -Raw -Encoding UTF8 | ConvertFro
 $presenca = Get-Content "$dir\presence_combined.json" -Raw -Encoding UTF8 | ConvertFrom-Json
 $novas    = Get-Content "$dir\inhire_new_companies.json" -Raw -Encoding UTF8 | ConvertFrom-Json
 
-function Write-Sheet($ws, $name, $headers, $props, $rows, $linkCols, $widths, $wrapCols) {
+function Write-Sheet($ws, $name, $headers, $props, $rows, $linkCols, $widths, $wrapCols, $textCols) {
   $ws.Name = $name
   for ($c = 0; $c -lt $headers.Count; $c++) { $ws.Cells.Item(1, $c + 1) = $headers[$c] }
+  # Datas ja vem formatadas DD/MM/AAAA. Sem forcar Texto, o Excel reinterpreta a string como
+  # data e reexibe no formato curto do locale (06/07/2026 -> 6/7/2026, ambiguo com M/D/AAAA).
+  foreach ($tc in $textCols) { $ws.Columns.Item($tc).NumberFormat = '@' }
   $r = 2
   foreach ($row in $rows) {
     for ($c = 0; $c -lt $props.Count; $c++) {
@@ -56,23 +59,23 @@ try {
   # Sheet 1: Vagas
   $ws1 = $wb.Worksheets.Item(1)
   Write-Sheet $ws1 'Vagas' `
-    @('Empresa','Plataforma','Na sua lista?','Categoria do Cargo','Titulo da Vaga','Tipo','Local','Link para Candidatura','Nome na Plataforma','Publicado','Alerta / Conferir','Detectada em') `
-    @('empresa','plataforma','na_lista','cargo_categoria','titulo_vaga','tipo','local','link','nome_na_plataforma','publicado','alerta','detectado_em') `
-    $vagas @('link') @(24,11,12,26,46,10,20,42,22,12,38,14) @(5,11)
+    @('Empresa','Plataforma','Na sua lista?','Categoria do Cargo','Titulo da Vaga','Tipo','Local','Link para Candidatura','Nome na Plataforma','Publicado','Prazo Final','Alerta / Conferir','Detectada em') `
+    @('empresa','plataforma','na_lista','cargo_categoria','titulo_vaga','tipo','local','link','nome_na_plataforma','publicado','prazo_final','alerta','detectado_em') `
+    $vagas @('link') @(24,11,12,26,46,10,20,42,22,12,12,38,14) @(5,12) @(10,11,13)
 
   # Sheet 2: Presenca
   $ws2 = $wb.Worksheets.Item(2)
   Write-Sheet $ws2 'Presenca por Empresa' `
     @('Empresa','Tem Gupy?','Pagina Gupy','Tem InHire?','Pagina InHire','Total Vagas InHire') `
     @('empresa','gupy','gupy_url','inhire','inhire_url','inhire_vagas_total') `
-    $presenca @('gupy_url','inhire_url') @(30,10,44,11,44,16) @()
+    $presenca @('gupy_url','inhire_url') @(30,10,44,11,44,16) @() @()
 
   # Sheet 3: InHire novas (fora da lista)
   $ws3 = $wb.Worksheets.Item(3)
   Write-Sheet $ws3 'InHire novas (fora da lista)' `
     @('Empresa','Total de Vagas Abertas','Pagina de Carreiras') `
     @('empresa','vagas_total','url') `
-    $novas @('url') @(38,20,46) @()
+    $novas @('url') @(38,20,46) @() @()
 
   $ws1.Activate()
   $wb.SaveAs($outPath, 51)

@@ -1,12 +1,17 @@
 const fs = require('fs');
 const path = require('path');
-const { DIR, loadCompanies, compact, matchRole, isRemote, sleep } = require('./lib.js');
+const { DIR, loadCompanies, matchRole, isAllowedLocation, isEntryLevel, buildCompanyMatcher, sleep } = require('./lib.js');
 
 const QUERIES = [
   'Analista de Dados', 'Data Analyst', 'Analista de BI', 'Business Intelligence',
   'Business Analyst', 'Analista de Negócios', 'Inteligência de Negócios',
   'Growth', 'Revenue Operations', 'RevOps', 'Analista de Insights',
-  'Inteligência de Mercado', 'Market Intelligence'
+  'Inteligência de Mercado', 'Market Intelligence',
+  // Mercado Financeiro
+  'Analista Financeiro', 'Financial Analyst', 'Analista de Investimentos',
+  'Tesouraria', 'Analista de Risco', 'Analista de Crédito', 'Controladoria', 'FP&A',
+  // Trainee (Financeiro/Dados) — matchRole() corta o que não for dessas áreas
+  'Trainee', 'Programa Trainee', 'Trainee Financeiro'
 ];
 
 const API = 'https://employability-portal.gupy.io/api/v1/jobs';
@@ -41,18 +46,7 @@ async function fetchAll(q) {
 
 (async () => {
   const companies = loadCompanies();
-  // build lookup of compact list names (len>=5 eligible for substring match)
-  const listCompact = companies.map(c => ({ orig: c, c: compact(c) })).filter(x => x.c.length >= 2);
-  function matchCompany(careerPageName) {
-    const cp = compact(careerPageName);
-    if (!cp) return null;
-    // exact
-    let hit = listCompact.find(x => x.c === cp);
-    if (hit) return hit.orig;
-    // substring (require the shorter side length>=5 to avoid noise)
-    hit = listCompact.find(x => (x.c.length >= 5 && cp.includes(x.c)) || (cp.length >= 5 && x.c.includes(cp)));
-    return hit ? hit.orig : null;
-  }
+  const matchCompany = buildCompanyMatcher(companies);
 
   const byId = new Map();
   const wpValues = new Set();
@@ -68,14 +62,17 @@ async function fetchAll(q) {
   console.log(`[gupy] unique jobs pooled: ${byId.size}`);
 
   const results = [];
-  let remoteCount = 0, roleCount = 0, inList = 0, outList = 0;
+  let locOkCount = 0, roleCount = 0, entryOkCount = 0, inList = 0, outList = 0;
   for (const j of byId.values()) {
     wpValues.add(j.workplaceType);
     const role = matchRole(j.name);
     if (!role) continue;
     roleCount++;
-    if (!isRemote(j.workplaceType, j.isRemoteWork)) continue;
-    remoteCount++;
+    if (!role.startsWith('Trainee') && !isEntryLevel(j.name)) continue;
+    entryOkCount++;
+    const location = [j.city, j.state, j.country].filter(Boolean).join(' / ');
+    if (!isAllowedLocation(j.workplaceType, location)) continue;
+    locOkCount++;
     const company = matchCompany(j.careerPageName);
     if (company) inList++; else outList++;
     results.push({
@@ -86,13 +83,14 @@ async function fetchAll(q) {
       role,
       jobTitle: j.name,
       workplaceType: j.workplaceType,
-      location: [j.city, j.state, j.country].filter(Boolean).join(' / '),
+      location,
       url: j.jobUrl || (j.careerPageUrl ? j.careerPageUrl : ''),
-      publishedDate: j.publishedDate || ''
+      publishedDate: j.publishedDate || '',
+      deadline: j.applicationDeadline || '' // prazo final de inscricao; so a Gupy expoe esse campo
     });
   }
   console.log(`[gupy] workplaceType values seen: ${[...wpValues].join(', ')}`);
-  console.log(`[gupy] role-matched=${roleCount} remote=${remoteCount} -> rows=${results.length} (in-list=${inList}, fora-da-lista=${outList})`);
+  console.log(`[gupy] role-matched=${roleCount} nivel-entry-ok=${entryOkCount} local-ok(remoto/Brasília-DF)=${locOkCount} -> rows=${results.length} (in-list=${inList}, fora-da-lista=${outList})`);
   fs.writeFileSync(path.join(DIR, 'gupy_results.json'), JSON.stringify(results, null, 2));
   console.log(`[gupy] wrote ${results.length} rows -> gupy_results.json`);
 

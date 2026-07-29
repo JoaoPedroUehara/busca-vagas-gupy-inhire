@@ -1,163 +1,163 @@
 [
   {
     "empresa": "V4 Company",
-    "vagas_total": 994,
+    "vagas_total": 980,
     "url": "https://v4company.inhire.app/vagas"
   },
   {
     "empresa": "Vitru Educação",
-    "vagas_total": 341,
+    "vagas_total": 360,
     "url": "https://vitru.inhire.app/vagas"
   },
   {
     "empresa": "Grupo Comolatti",
-    "vagas_total": 266,
+    "vagas_total": 272,
     "url": "https://grupocomolatti.inhire.app/vagas"
   },
   {
     "empresa": "Priner",
-    "vagas_total": 264,
+    "vagas_total": 267,
     "url": "https://priner.inhire.app/vagas"
   },
   {
     "empresa": "Demo",
-    "vagas_total": 247,
+    "vagas_total": 246,
     "url": "https://demo.inhire.app/vagas"
   },
   {
     "empresa": "Deloitte",
-    "vagas_total": 229,
+    "vagas_total": 228,
     "url": "https://deloitte.inhire.app/vagas"
   },
   {
-    "empresa": "Grupo Protege ",
-    "vagas_total": 195,
-    "url": "https://grupoprotege.inhire.app/vagas"
-  },
-  {
     "empresa": "Saúde do TEA",
-    "vagas_total": 184,
+    "vagas_total": 208,
     "url": "https://tela.inhire.app/vagas"
   },
   {
+    "empresa": "Grupo Protege ",
+    "vagas_total": 202,
+    "url": "https://grupoprotege.inhire.app/vagas"
+  },
+  {
     "empresa": "Essencial Nutrição",
-    "vagas_total": 177,
+    "vagas_total": 193,
     "url": "https://essencialnutricao.inhire.app/vagas"
   },
   {
     "empresa": "Grupo Lider",
-    "vagas_total": 167,
+    "vagas_total": 183,
     "url": "https://grupolider.inhire.app/vagas"
   },
   {
     "empresa": "Pantheon",
-    "vagas_total": 110,
+    "vagas_total": 107,
     "url": "https://pantheon.inhire.app/vagas"
   },
   {
-    "empresa": "Infotec Brasil",
-    "vagas_total": 80,
-    "url": "https://infotecbrasil.inhire.app/vagas"
-  },
-  {
     "empresa": "Hilton Brasil",
-    "vagas_total": 79,
+    "vagas_total": 89,
     "url": "https://hiltonbrasil.inhire.app/vagas"
   },
   {
+    "empresa": "Infotec Brasil",
+    "vagas_total": 66,
+    "url": "https://infotecbrasil.inhire.app/vagas"
+  },
+  {
+    "empresa": "Ninecon",
+    "vagas_total": 66,
+    "url": "https://ninecon.inhire.app/vagas"
+  },
+  {
+    "empresa": "Mottu",
+    "vagas_total": 65,
+    "url": "https://mottu.inhire.app/vagas"
+  },
+  {
     "empresa": "ICON Solutions do Brasil",
-    "vagas_total": 78,
+    "vagas_total": 64,
     "url": "https://iconit.inhire.app/vagas"
   },
   {
     "empresa": "Gogroup",
-    "vagas_total": 67,
+    "vagas_total": 60,
     "url": "https://gogroup.inhire.app/vagas"
   },
   {
-    "empresa": "Mottu",
-    "vagas_total": 63,
-    "url": "https://mottu.inhire.app/vagas"
-  },
-  {
-    "empresa": "AGROSearch",
-    "vagas_total": 61,
-    "url": "https://agrosearch.inhire.app/vagas"
-  },
-  {
     "empresa": "Viseu Secondment",
-    "vagas_total": 51,
+    "vagas_total": 53,
     "url": "https://viseu.inhire.app/vagas"
   },
   {
+    "empresa": "Clam",
+    "vagas_total": 52,
+    "url": "https://clam.inhire.app/vagas"
+  },
+  {
     "empresa": "Insider Store",
-    "vagas_total": 49,
+    "vagas_total": 47,
     "url": "https://insiderstore.inhire.app/vagas"
   },
   {
-    "empresa": "Lyncas",
-    "vagas_total": 49,
-    "url": "https://lyncas.inhire.app/vagas"
+    "empresa": "AGROSearch",
+    "vagas_total": 46,
+    "url": "https://agrosearch.inhire.app/vagas"
   },
   {
     "empresa": "Pedra Agroindustrial",
-    "vagas_total": 49,
+    "vagas_total": 46,
     "url": "https://pedraagroindustrial.inhire.app/vagas"
   },
   {
     "empresa": "vocedm",
-    "vagas_total": 46,
+    "vagas_total": 45,
     "url": "https://vocedm.inhire.app/vagas"
   },
   {
-    "empresa": "Poliedro Educação",
-    "vagas_total": 42,
-    "url": "https://poliedroeducacao.inhire.app/vagas"
-  },
-  {
-    "empresa": "Zerezes",
-    "vagas_total": 42,
-    "url": "https://zerezes.inhire.app/vagas"
-  },
-  {
-    "empresa": "Framework",
-    "vagas_total": 41,
-    "url": "https://frameworkdigital.inhire.app/vagas"
-  },
-  {
-    "empresa": "ASA",
-    "vagas_total": 40,
-    "url": "https://asa.inhire.app/vagas"
-  },
-  {
-    "empresa": "DUX Company",
-    "vagas_total": 40,
-    "url": "https://duxcompany.inhire.app/vagas"
-  },
-  {
-    "empresa": "Premiersoft",
-    "vagas_total": 40,
-    "url": "https://premiersoft.inhire.app/vagas"
-  },
-  {
-    "empresa": "MENA",
-    "vagas_total": 39,
-    "url": "https://mena.inhire.app/vagas"
-  },
-  {
     "empresa": "Sympla",
-    "vagas_total": 38,
+    "vagas_total": 43,
     "url": "https://sympla.inhire.app/vagas"
   },
   {
-    "empresa": "Westwing Brasil",
+    "empresa": "Zerezes",
+    "vagas_total": 41,
+    "url": "https://zerezes.inhire.app/vagas"
+  },
+  {
+    "empresa": "Brivia",
+    "vagas_total": 39,
+    "url": "https://brivia.inhire.app/vagas"
+  },
+  {
+    "empresa": "Framework",
     "vagas_total": 38,
+    "url": "https://frameworkdigital.inhire.app/vagas"
+  },
+  {
+    "empresa": "DUX Company",
+    "vagas_total": 36,
+    "url": "https://duxcompany.inhire.app/vagas"
+  },
+  {
+    "empresa": "MENA",
+    "vagas_total": 36,
+    "url": "https://mena.inhire.app/vagas"
+  },
+  {
+    "empresa": "Premiersoft",
+    "vagas_total": 36,
+    "url": "https://premiersoft.inhire.app/vagas"
+  },
+  {
+    "empresa": "Westwing Brasil",
+    "vagas_total": 36,
     "url": "https://westwing.inhire.app/vagas"
   },
   {
-    "empresa": "Clam",
-    "vagas_total": 36,
-    "url": "https://clam.inhire.app/vagas"
+    "empresa": "ASA",
+    "vagas_total": 35,
+    "url": "https://asa.inhire.app/vagas"
   },
   {
     "empresa": "Qeevo",
@@ -165,14 +165,19 @@
     "url": "https://queroeducacao.inhire.app/vagas"
   },
   {
-    "empresa": "Asper",
+    "empresa": "Lyncas",
     "vagas_total": 33,
-    "url": "https://asper.inhire.app/vagas"
+    "url": "https://lyncas.inhire.app/vagas"
   },
   {
-    "empresa": "EQI",
+    "empresa": "Poliedro Educação",
     "vagas_total": 33,
-    "url": "https://eqi.inhire.app/vagas"
+    "url": "https://poliedroeducacao.inhire.app/vagas"
+  },
+  {
+    "empresa": "QI Tech",
+    "vagas_total": 33,
+    "url": "https://qitech.inhire.app/vagas"
   },
   {
     "empresa": "Bequest Academy",
@@ -180,19 +185,34 @@
     "url": "https://bequestdigital.inhire.app/vagas"
   },
   {
-    "empresa": "QI Tech",
+    "empresa": "EQI",
     "vagas_total": 32,
-    "url": "https://qitech.inhire.app/vagas"
+    "url": "https://eqi.inhire.app/vagas"
   },
   {
-    "empresa": "Brivia",
+    "empresa": "Asper",
     "vagas_total": 31,
-    "url": "https://brivia.inhire.app/vagas"
+    "url": "https://asper.inhire.app/vagas"
   },
   {
-    "empresa": "Ável ",
+    "empresa": "Grupo AG Capital",
+    "vagas_total": 31,
+    "url": "https://grupoagcapital.inhire.app/vagas"
+  },
+  {
+    "empresa": "Nomad",
+    "vagas_total": 31,
+    "url": "https://nomadglobal.inhire.app/vagas"
+  },
+  {
+    "empresa": "Oliveira & Antunes Advogados Associados",
+    "vagas_total": 31,
+    "url": "https://oliveiraeantunes.inhire.app/vagas"
+  },
+  {
+    "empresa": "Grupo LOS",
     "vagas_total": 30,
-    "url": "https://avel.inhire.app/vagas"
+    "url": "https://grupolos.inhire.app/vagas"
   },
   {
     "empresa": "FiberHome Brasil",
@@ -200,34 +220,19 @@
     "url": "https://fiberhome.inhire.app/vagas"
   },
   {
-    "empresa": "Grupo AG Capital",
-    "vagas_total": 29,
-    "url": "https://grupoagcapital.inhire.app/vagas"
-  },
-  {
-    "empresa": "Grupo LOS",
-    "vagas_total": 29,
-    "url": "https://grupolos.inhire.app/vagas"
-  },
-  {
     "empresa": "SRM",
     "vagas_total": 29,
     "url": "https://gruposrm.inhire.app/vagas"
   },
   {
-    "empresa": "Ligga",
-    "vagas_total": 28,
-    "url": "https://liggatelecom.inhire.app/vagas"
-  },
-  {
-    "empresa": "Nomad",
-    "vagas_total": 28,
-    "url": "https://nomadglobal.inhire.app/vagas"
-  },
-  {
     "empresa": "Sanar",
     "vagas_total": 28,
     "url": "https://sanar.inhire.app/vagas"
+  },
+  {
+    "empresa": "Schulze",
+    "vagas_total": 28,
+    "url": "https://schulze.inhire.app/vagas"
   },
   {
     "empresa": "Sylvamo",
@@ -250,14 +255,14 @@
     "url": "https://talentx.inhire.app/vagas"
   },
   {
-    "empresa": "Luby",
+    "empresa": "Appmax",
     "vagas_total": 25,
-    "url": "https://luby.inhire.app/vagas"
+    "url": "https://appmax.inhire.app/vagas"
   },
   {
-    "empresa": "Oliveira & Antunes Advogados Associados",
+    "empresa": "LiveMode",
     "vagas_total": 25,
-    "url": "https://oliveiraeantunes.inhire.app/vagas"
+    "url": "https://livemode.inhire.app/vagas"
   },
   {
     "empresa": "tecer",
@@ -265,39 +270,34 @@
     "url": "https://tecer.inhire.app/vagas"
   },
   {
-    "empresa": "Appmax",
+    "empresa": "Magazord",
     "vagas_total": 24,
-    "url": "https://appmax.inhire.app/vagas"
-  },
-  {
-    "empresa": "DBServices",
-    "vagas_total": 24,
-    "url": "https://dbservices.inhire.app/vagas"
-  },
-  {
-    "empresa": "IDG",
-    "vagas_total": 24,
-    "url": "https://idg.inhire.app/vagas"
-  },
-  {
-    "empresa": "LiveMode",
-    "vagas_total": 24,
-    "url": "https://livemode.inhire.app/vagas"
-  },
-  {
-    "empresa": "Schulze",
-    "vagas_total": 24,
-    "url": "https://schulze.inhire.app/vagas"
-  },
-  {
-    "empresa": "Trinnus RH",
-    "vagas_total": 24,
-    "url": "https://trinnus.inhire.app/vagas"
+    "url": "https://magazord.inhire.app/vagas"
   },
   {
     "empresa": "Melnick",
-    "vagas_total": 23,
+    "vagas_total": 24,
     "url": "https://melnick.inhire.app/vagas"
+  },
+  {
+    "empresa": "Paytrack",
+    "vagas_total": 24,
+    "url": "https://paytrack.inhire.app/vagas"
+  },
+  {
+    "empresa": "Luby",
+    "vagas_total": 23,
+    "url": "https://luby.inhire.app/vagas"
+  },
+  {
+    "empresa": "Solfácil",
+    "vagas_total": 23,
+    "url": "https://solfacil.inhire.app/vagas"
+  },
+  {
+    "empresa": "Trinnus RH",
+    "vagas_total": 23,
+    "url": "https://trinnus.inhire.app/vagas"
   },
   {
     "empresa": "iHunters",
@@ -305,14 +305,9 @@
     "url": "https://ihunters.inhire.app/vagas"
   },
   {
-    "empresa": "Paytrack",
-    "vagas_total": 22,
-    "url": "https://paytrack.inhire.app/vagas"
-  },
-  {
-    "empresa": "Fretadão",
+    "empresa": "Anhembi",
     "vagas_total": 21,
-    "url": "https://fretadao.inhire.app/vagas"
+    "url": "https://industriasanhembi.inhire.app/vagas"
   },
   {
     "empresa": "BIX Tecnologia - Consultoria de Dados",
@@ -320,9 +315,9 @@
     "url": "https://bixtecnologia.inhire.app/vagas"
   },
   {
-    "empresa": "CTC",
+    "empresa": "CredAluga",
     "vagas_total": 20,
-    "url": "https://ctctech.inhire.app/vagas"
+    "url": "https://credaluga.inhire.app/vagas"
   },
   {
     "empresa": "RH Lótus Solution",
@@ -330,29 +325,24 @@
     "url": "https://lotussolution.inhire.app/vagas"
   },
   {
-    "empresa": "Anhembi",
-    "vagas_total": 19,
-    "url": "https://industriasanhembi.inhire.app/vagas"
+    "empresa": "Zallpy Digital",
+    "vagas_total": 20,
+    "url": "https://zallpy.inhire.app/vagas"
   },
   {
-    "empresa": "CashMe",
+    "empresa": "Betha",
     "vagas_total": 19,
-    "url": "https://cashme.inhire.app/vagas"
+    "url": "https://betha.inhire.app/vagas"
   },
   {
-    "empresa": "Guaracamp",
+    "empresa": "Fretadão",
     "vagas_total": 19,
-    "url": "https://guaracamp.inhire.app/vagas"
+    "url": "https://fretadao.inhire.app/vagas"
   },
   {
-    "empresa": "Solfácil",
+    "empresa": "Rentcars",
     "vagas_total": 19,
-    "url": "https://solfacil.inhire.app/vagas"
-  },
-  {
-    "empresa": "Yandeh",
-    "vagas_total": 19,
-    "url": "https://yandeh.inhire.app/vagas"
+    "url": "https://rentcars.inhire.app/vagas"
   },
   {
     "empresa": "Aline Maineri Consultoria RH (TRD)",
@@ -360,19 +350,9 @@
     "url": "https://alinemainericonsultoria.inhire.app/vagas"
   },
   {
-    "empresa": "Betha",
+    "empresa": "EVEO",
     "vagas_total": 18,
-    "url": "https://betha.inhire.app/vagas"
-  },
-  {
-    "empresa": "Magazord",
-    "vagas_total": 18,
-    "url": "https://magazord.inhire.app/vagas"
-  },
-  {
-    "empresa": "Vórtx",
-    "vagas_total": 18,
-    "url": "https://vortx.inhire.app/vagas"
+    "url": "https://eveo.inhire.app/vagas"
   },
   {
     "empresa": "ASCAS",
@@ -380,29 +360,44 @@
     "url": "https://ascasconsultoria.inhire.app/vagas"
   },
   {
-    "empresa": "MK Solutions",
+    "empresa": "Ligga",
     "vagas_total": 17,
-    "url": "https://mksolutions.inhire.app/vagas"
+    "url": "https://liggatelecom.inhire.app/vagas"
   },
   {
-    "empresa": "Movecta",
+    "empresa": "Stoque",
     "vagas_total": 17,
-    "url": "https://movecta.inhire.app/vagas"
+    "url": "https://stoque.inhire.app/vagas"
   },
   {
-    "empresa": "Rentcars",
+    "empresa": "Tecsul",
     "vagas_total": 17,
-    "url": "https://rentcars.inhire.app/vagas"
+    "url": "https://tecsul.inhire.app/vagas"
   },
   {
-    "empresa": "Zallpy Digital",
+    "empresa": "Wilson Sons Offshore",
     "vagas_total": 17,
-    "url": "https://zallpy.inhire.app/vagas"
+    "url": "https://wsut.inhire.app/vagas"
   },
   {
-    "empresa": "Conx",
+    "empresa": "WINDCRAFT",
+    "vagas_total": 17,
+    "url": "https://windcraft.inhire.app/vagas"
+  },
+  {
+    "empresa": "Zappts",
+    "vagas_total": 17,
+    "url": "https://zappts.inhire.app/vagas"
+  },
+  {
+    "empresa": "Ável ",
     "vagas_total": 16,
-    "url": "https://conxconstrutora.inhire.app/vagas"
+    "url": "https://avel.inhire.app/vagas"
+  },
+  {
+    "empresa": "Cescon Barrieu",
+    "vagas_total": 16,
+    "url": "https://cesconbarrieu.inhire.app/vagas"
   },
   {
     "empresa": "Fitting",
@@ -420,9 +415,19 @@
     "url": "https://autoglass.inhire.app/vagas"
   },
   {
-    "empresa": "Bridge & Co.",
+    "empresa": "Guaracamp",
+    "vagas_total": 16,
+    "url": "https://guaracamp.inhire.app/vagas"
+  },
+  {
+    "empresa": "Turbo",
+    "vagas_total": 16,
+    "url": "https://turbo.inhire.app/vagas"
+  },
+  {
+    "empresa": "CRMBonus",
     "vagas_total": 15,
-    "url": "https://bridge.inhire.app/vagas"
+    "url": "https://crmbonus.inhire.app/vagas"
   },
   {
     "empresa": "Eclipseworks",
@@ -435,39 +440,39 @@
     "url": "https://alura-fiap-pm3.inhire.app/vagas"
   },
   {
-    "empresa": "Qive",
+    "empresa": "IDG",
     "vagas_total": 15,
-    "url": "https://qive.inhire.app/vagas"
+    "url": "https://idg.inhire.app/vagas"
   },
   {
-    "empresa": "Tecsul",
+    "empresa": "MK Solutions",
     "vagas_total": 15,
-    "url": "https://tecsul.inhire.app/vagas"
+    "url": "https://mksolutions.inhire.app/vagas"
   },
   {
-    "empresa": "Wilson Sons Offshore",
+    "empresa": "Octafy",
     "vagas_total": 15,
-    "url": "https://wsut.inhire.app/vagas"
+    "url": "https://octafy.inhire.app/vagas"
   },
   {
-    "empresa": "Zig",
+    "empresa": "Yandeh",
     "vagas_total": 15,
-    "url": "https://zig.inhire.app/vagas"
+    "url": "https://yandeh.inhire.app/vagas"
   },
   {
-    "empresa": "CredAluga",
+    "empresa": "CashMe",
     "vagas_total": 14,
-    "url": "https://credaluga.inhire.app/vagas"
+    "url": "https://cashme.inhire.app/vagas"
   },
   {
-    "empresa": "EVEO",
+    "empresa": "Flutter Brazil",
     "vagas_total": 14,
-    "url": "https://eveo.inhire.app/vagas"
+    "url": "https://flutterbrazil.inhire.app/vagas"
   },
   {
-    "empresa": "IVENTIS",
+    "empresa": "GoFlow Consultoria",
     "vagas_total": 14,
-    "url": "https://iventis.inhire.app/vagas"
+    "url": "https://goflow.inhire.app/vagas"
   },
   {
     "empresa": "Leader & Talent",
@@ -475,34 +480,39 @@
     "url": "https://leaderetalent.inhire.app/vagas"
   },
   {
-    "empresa": "WINDCRAFT",
+    "empresa": "Segura®",
     "vagas_total": 14,
-    "url": "https://windcraft.inhire.app/vagas"
+    "url": "https://segura.inhire.app/vagas"
   },
   {
-    "empresa": "Zappts",
+    "empresa": "Vórtx",
     "vagas_total": 14,
-    "url": "https://zappts.inhire.app/vagas"
+    "url": "https://vortx.inhire.app/vagas"
   },
   {
-    "empresa": "CRMBonus",
+    "empresa": "CTC",
     "vagas_total": 13,
-    "url": "https://crmbonus.inhire.app/vagas"
+    "url": "https://ctctech.inhire.app/vagas"
   },
   {
-    "empresa": "Kstack",
+    "empresa": "Infleet",
     "vagas_total": 13,
-    "url": "https://kstack.inhire.app/vagas"
+    "url": "https://infleet.inhire.app/vagas"
   },
   {
-    "empresa": "Turbo",
+    "empresa": "Lemon Energia",
     "vagas_total": 13,
-    "url": "https://turbo.inhire.app/vagas"
+    "url": "https://lemonenergia.inhire.app/vagas"
   },
   {
-    "empresa": "Cescon Barrieu",
+    "empresa": "Yolo Recruit",
+    "vagas_total": 13,
+    "url": "https://yolo.inhire.app/vagas"
+  },
+  {
+    "empresa": "Construtora Elevação",
     "vagas_total": 12,
-    "url": "https://cesconbarrieu.inhire.app/vagas"
+    "url": "https://construtoraelevacao.inhire.app/vagas"
   },
   {
     "empresa": "Essence",
@@ -510,44 +520,59 @@
     "url": "https://essenceit.inhire.app/vagas"
   },
   {
-    "empresa": "Lemon Energia",
+    "empresa": "Grupo GCB",
     "vagas_total": 12,
-    "url": "https://lemonenergia.inhire.app/vagas"
-  },
-  {
-    "empresa": "Portofino Multi    Family Office",
-    "vagas_total": 12,
-    "url": "https://pmfo.inhire.app/vagas"
-  },
-  {
-    "empresa": "Segura®",
-    "vagas_total": 12,
-    "url": "https://segura.inhire.app/vagas"
-  },
-  {
-    "empresa": "GoFlow Consultoria",
-    "vagas_total": 11,
-    "url": "https://goflow.inhire.app/vagas"
+    "url": "https://grupogcbinvestimentos.inhire.app/vagas"
   },
   {
     "empresa": "J.Assy",
-    "vagas_total": 11,
+    "vagas_total": 12,
     "url": "https://jassy.inhire.app/vagas"
   },
   {
     "empresa": "LWSA",
-    "vagas_total": 11,
+    "vagas_total": 12,
     "url": "https://lwsa.inhire.app/vagas"
   },
   {
-    "empresa": "Octafy",
-    "vagas_total": 11,
-    "url": "https://octafy.inhire.app/vagas"
+    "empresa": "Pottencial",
+    "vagas_total": 12,
+    "url": "https://pottencial.inhire.app/vagas"
   },
   {
-    "empresa": "Stoque",
+    "empresa": "Procfit",
+    "vagas_total": 12,
+    "url": "https://procfit.inhire.app/vagas"
+  },
+  {
+    "empresa": "Qive",
+    "vagas_total": 12,
+    "url": "https://qive.inhire.app/vagas"
+  },
+  {
+    "empresa": "Zig",
+    "vagas_total": 12,
+    "url": "https://zig.inhire.app/vagas"
+  },
+  {
+    "empresa": "BR MotorSport",
     "vagas_total": 11,
-    "url": "https://stoque.inhire.app/vagas"
+    "url": "https://brms.inhire.app/vagas"
+  },
+  {
+    "empresa": "Conx",
+    "vagas_total": 11,
+    "url": "https://conxconstrutora.inhire.app/vagas"
+  },
+  {
+    "empresa": "Heads",
+    "vagas_total": 11,
+    "url": "https://heads.inhire.app/vagas"
+  },
+  {
+    "empresa": "Portofino Multi    Family Office",
+    "vagas_total": 11,
+    "url": "https://pmfo.inhire.app/vagas"
   },
   {
     "empresa": "TPGROUP",
@@ -555,64 +580,9 @@
     "url": "https://tpgroup.inhire.app/vagas"
   },
   {
-    "empresa": "VRental",
-    "vagas_total": 11,
-    "url": "https://vrental.inhire.app/vagas"
-  },
-  {
-    "empresa": "Yolo Recruit",
-    "vagas_total": 11,
-    "url": "https://yolo.inhire.app/vagas"
-  },
-  {
-    "empresa": "Barros & Advogados",
+    "empresa": "Kstack",
     "vagas_total": 10,
-    "url": "https://barrosadvogados.inhire.app/vagas"
-  },
-  {
-    "empresa": "Cayena ",
-    "vagas_total": 10,
-    "url": "https://cayena.inhire.app/vagas"
-  },
-  {
-    "empresa": "Clavis",
-    "vagas_total": 10,
-    "url": "https://clavis.inhire.app/vagas"
-  },
-  {
-    "empresa": "Elements",
-    "vagas_total": 10,
-    "url": "https://elements.inhire.app/vagas"
-  },
-  {
-    "empresa": "EXA",
-    "vagas_total": 10,
-    "url": "https://exa.inhire.app/vagas"
-  },
-  {
-    "empresa": "Flutter Brazil",
-    "vagas_total": 10,
-    "url": "https://flutterbrazil.inhire.app/vagas"
-  },
-  {
-    "empresa": "Global System",
-    "vagas_total": 10,
-    "url": "https://globalsystem.inhire.app/vagas"
-  },
-  {
-    "empresa": "Grupo GCB",
-    "vagas_total": 10,
-    "url": "https://grupogcbinvestimentos.inhire.app/vagas"
-  },
-  {
-    "empresa": "Heads",
-    "vagas_total": 10,
-    "url": "https://heads.inhire.app/vagas"
-  },
-  {
-    "empresa": "Infleet",
-    "vagas_total": 10,
-    "url": "https://infleet.inhire.app/vagas"
+    "url": "https://kstack.inhire.app/vagas"
   },
   {
     "empresa": "LFA Advogados",
@@ -620,14 +590,9 @@
     "url": "https://lfaadvogados.inhire.app/vagas"
   },
   {
-    "empresa": "M7 Soluções Financeiras",
+    "empresa": "Movecta",
     "vagas_total": 10,
-    "url": "https://multi7.inhire.app/vagas"
-  },
-  {
-    "empresa": "Procfit",
-    "vagas_total": 10,
-    "url": "https://procfit.inhire.app/vagas"
+    "url": "https://movecta.inhire.app/vagas"
   },
   {
     "empresa": "RIOgaleão",
@@ -635,9 +600,9 @@
     "url": "https://riogaleao.inhire.app/vagas"
   },
   {
-    "empresa": "Seguros SURA",
+    "empresa": "Think IT",
     "vagas_total": 10,
-    "url": "https://segurossura.inhire.app/vagas"
+    "url": "https://grupothink.inhire.app/vagas"
   },
   {
     "empresa": "Union IT",
@@ -645,24 +610,24 @@
     "url": "https://unionit.inhire.app/vagas"
   },
   {
+    "empresa": "VRental",
+    "vagas_total": 10,
+    "url": "https://vrental.inhire.app/vagas"
+  },
+  {
     "empresa": "aTip",
     "vagas_total": 9,
     "url": "https://atip.inhire.app/vagas"
   },
   {
-    "empresa": "Atlântico",
+    "empresa": "Barros & Advogados",
     "vagas_total": 9,
-    "url": "https://atlantico.inhire.app/vagas"
+    "url": "https://barrosadvogados.inhire.app/vagas"
   },
   {
-    "empresa": "CAF",
+    "empresa": "Cayena ",
     "vagas_total": 9,
-    "url": "https://certta.inhire.app/vagas"
-  },
-  {
-    "empresa": "Carbigdata",
-    "vagas_total": 9,
-    "url": "https://carbigdata.inhire.app/vagas"
+    "url": "https://cayena.inhire.app/vagas"
   },
   {
     "empresa": "Cidadania Já",
@@ -670,9 +635,14 @@
     "url": "https://cidadaniaja.inhire.app/vagas"
   },
   {
-    "empresa": "CrediPronto",
+    "empresa": "Clavis",
     "vagas_total": 9,
-    "url": "https://credipronto.inhire.app/vagas"
+    "url": "https://clavis.inhire.app/vagas"
+  },
+  {
+    "empresa": "DBServices",
+    "vagas_total": 9,
+    "url": "https://dbservices.inhire.app/vagas"
   },
   {
     "empresa": "DQR Tech",
@@ -680,29 +650,19 @@
     "url": "https://dqrtech.inhire.app/vagas"
   },
   {
-    "empresa": "FacilitaPay",
+    "empresa": "FSB Holding",
     "vagas_total": 9,
-    "url": "https://facilitapay.inhire.app/vagas"
+    "url": "https://fsbholding.inhire.app/vagas"
   },
   {
-    "empresa": "Farmtech",
+    "empresa": "GEO3D ENGENHARIA DE MAPEAMENTO",
     "vagas_total": 9,
-    "url": "https://farmtech.inhire.app/vagas"
+    "url": "https://geo3d.inhire.app/vagas"
   },
   {
-    "empresa": "Final Level ",
+    "empresa": "M7 Soluções Financeiras",
     "vagas_total": 9,
-    "url": "https://finallevel.inhire.app/vagas"
-  },
-  {
-    "empresa": "Indicium",
-    "vagas_total": 9,
-    "url": "https://indicium.inhire.app/vagas"
-  },
-  {
-    "empresa": "IORQ",
-    "vagas_total": 9,
-    "url": "https://iorq.inhire.app/vagas"
+    "url": "https://multi7.inhire.app/vagas"
   },
   {
     "empresa": "Petit.RH",
@@ -715,19 +675,44 @@
     "url": "https://praso.inhire.app/vagas"
   },
   {
-    "empresa": "Programmers - AI, Data & Software",
+    "empresa": "QuickSoft",
     "vagas_total": 9,
-    "url": "https://programmers.inhire.app/vagas"
+    "url": "https://quicksoft.inhire.app/vagas"
   },
   {
-    "empresa": "Think IT",
+    "empresa": "Same Engenharia",
     "vagas_total": 9,
-    "url": "https://grupothink.inhire.app/vagas"
+    "url": "https://same-engenharia.inhire.app/vagas"
   },
   {
-    "empresa": "Construtora Elevação",
+    "empresa": "Seguros SURA",
+    "vagas_total": 9,
+    "url": "https://segurossura.inhire.app/vagas"
+  },
+  {
+    "empresa": "Vertigo Tecnologia",
+    "vagas_total": 9,
+    "url": "https://vertigo.inhire.app/vagas"
+  },
+  {
+    "empresa": "Automind",
     "vagas_total": 8,
-    "url": "https://construtoraelevacao.inhire.app/vagas"
+    "url": "https://automind.inhire.app/vagas"
+  },
+  {
+    "empresa": "Bridge & Co.",
+    "vagas_total": 8,
+    "url": "https://bridge.inhire.app/vagas"
+  },
+  {
+    "empresa": "coaktion",
+    "vagas_total": 8,
+    "url": "https://coaktion.inhire.app/vagas"
+  },
+  {
+    "empresa": "CrediPronto",
+    "vagas_total": 8,
+    "url": "https://credipronto.inhire.app/vagas"
   },
   {
     "empresa": "Dartz Ideal Recruitment",
@@ -735,9 +720,29 @@
     "url": "https://dartz.inhire.app/vagas"
   },
   {
-    "empresa": "GEX",
+    "empresa": "EXA",
     "vagas_total": 8,
-    "url": "https://gex.inhire.app/vagas"
+    "url": "https://exa.inhire.app/vagas"
+  },
+  {
+    "empresa": "FacilitaPay",
+    "vagas_total": 8,
+    "url": "https://facilitapay.inhire.app/vagas"
+  },
+  {
+    "empresa": "Farmtech",
+    "vagas_total": 8,
+    "url": "https://farmtech.inhire.app/vagas"
+  },
+  {
+    "empresa": "FRICON Brasil",
+    "vagas_total": 8,
+    "url": "https://fricon.inhire.app/vagas"
+  },
+  {
+    "empresa": "GuiaInvest",
+    "vagas_total": 8,
+    "url": "https://grupoguiainvest.inhire.app/vagas"
   },
   {
     "empresa": "Kanastra",
@@ -750,9 +755,19 @@
     "url": "https://luzandreyaconsultoria.inhire.app/vagas"
   },
   {
-    "empresa": "Pipo Saúde",
+    "empresa": "Medway",
     "vagas_total": 8,
-    "url": "https://piposaude.inhire.app/vagas"
+    "url": "https://medway.inhire.app/vagas"
+  },
+  {
+    "empresa": "NTS Brasil",
+    "vagas_total": 8,
+    "url": "https://nts.inhire.app/vagas"
+  },
+  {
+    "empresa": "Seventh",
+    "vagas_total": 8,
+    "url": "https://seventh.inhire.app/vagas"
   },
   {
     "empresa": "Ume",
@@ -760,14 +775,24 @@
     "url": "https://ume.inhire.app/vagas"
   },
   {
+    "empresa": "Unitech",
+    "vagas_total": 8,
+    "url": "https://unitech.inhire.app/vagas"
+  },
+  {
     "empresa": "V360",
     "vagas_total": 8,
     "url": "https://v360.inhire.app/vagas"
   },
   {
-    "empresa": "Vertigo Tecnologia",
+    "empresa": "Vem ser GX2",
     "vagas_total": 8,
-    "url": "https://vertigo.inhire.app/vagas"
+    "url": "https://gx2.inhire.app/vagas"
+  },
+  {
+    "empresa": "wehandle",
+    "vagas_total": 8,
+    "url": "https://wehandle.inhire.app/vagas"
   },
   {
     "empresa": "2Future",
@@ -775,19 +800,9 @@
     "url": "https://2future.inhire.app/vagas"
   },
   {
-    "empresa": "Automind",
-    "vagas_total": 7,
-    "url": "https://automind.inhire.app/vagas"
-  },
-  {
     "empresa": "Autopass",
     "vagas_total": 7,
     "url": "https://autopass.inhire.app/vagas"
-  },
-  {
-    "empresa": "Azos",
-    "vagas_total": 7,
-    "url": "https://azos.inhire.app/vagas"
   },
   {
     "empresa": "Bankme.",
@@ -800,9 +815,9 @@
     "url": "https://caf.inhire.app/vagas"
   },
   {
-    "empresa": "Celcoin",
+    "empresa": "CAF",
     "vagas_total": 7,
-    "url": "https://celcoin.inhire.app/vagas"
+    "url": "https://certta.inhire.app/vagas"
   },
   {
     "empresa": "Construtora Patriani",
@@ -820,9 +835,19 @@
     "url": "https://erural.inhire.app/vagas"
   },
   {
-    "empresa": "FSB Holding",
+    "empresa": "Fleming Educação",
     "vagas_total": 7,
-    "url": "https://fsbholding.inhire.app/vagas"
+    "url": "https://flemingeducacao.inhire.app/vagas"
+  },
+  {
+    "empresa": "GEX",
+    "vagas_total": 7,
+    "url": "https://gex.inhire.app/vagas"
+  },
+  {
+    "empresa": "Global System",
+    "vagas_total": 7,
+    "url": "https://globalsystem.inhire.app/vagas"
   },
   {
     "empresa": "Grupo 3C",
@@ -830,24 +855,34 @@
     "url": "https://3cplusnow.inhire.app/vagas"
   },
   {
-    "empresa": "GuiaInvest",
+    "empresa": "Indicium",
     "vagas_total": 7,
-    "url": "https://grupoguiainvest.inhire.app/vagas"
+    "url": "https://indicium.inhire.app/vagas"
   },
   {
-    "empresa": "Medway",
+    "empresa": "IORQ",
     "vagas_total": 7,
-    "url": "https://medway.inhire.app/vagas"
+    "url": "https://iorq.inhire.app/vagas"
   },
   {
-    "empresa": "NTS Brasil",
+    "empresa": "Koopere",
     "vagas_total": 7,
-    "url": "https://nts.inhire.app/vagas"
+    "url": "https://kooperecooperativa.inhire.app/vagas"
   },
   {
-    "empresa": "Pottencial",
+    "empresa": "Miner Tecnologia",
     "vagas_total": 7,
-    "url": "https://pottencial.inhire.app/vagas"
+    "url": "https://minertecnologia.inhire.app/vagas"
+  },
+  {
+    "empresa": "Pier Seguradora",
+    "vagas_total": 7,
+    "url": "https://pier.inhire.app/vagas"
+  },
+  {
+    "empresa": "Pipo Saúde",
+    "vagas_total": 7,
+    "url": "https://piposaude.inhire.app/vagas"
   },
   {
     "empresa": "Qeevo",
@@ -858,11 +893,6 @@
     "empresa": "Rentbrella",
     "vagas_total": 7,
     "url": "https://rentbrella.inhire.app/vagas"
-  },
-  {
-    "empresa": "Same Engenharia",
-    "vagas_total": 7,
-    "url": "https://same-engenharia.inhire.app/vagas"
   },
   {
     "empresa": "Sancor Seguros",
@@ -880,29 +910,24 @@
     "url": "https://townsq.inhire.app/vagas"
   },
   {
-    "empresa": "Trampay",
+    "empresa": "Wevy",
     "vagas_total": 7,
-    "url": "https://trampay.inhire.app/vagas"
+    "url": "https://wevy-cloud.inhire.app/vagas"
   },
   {
-    "empresa": "wehandle",
-    "vagas_total": 7,
-    "url": "https://wehandle.inhire.app/vagas"
-  },
-  {
-    "empresa": "coaktion",
+    "empresa": "Atlas",
     "vagas_total": 6,
-    "url": "https://coaktion.inhire.app/vagas"
+    "url": "https://atlastechnol.inhire.app/vagas"
   },
   {
-    "empresa": "Fleming Educação",
+    "empresa": "Azos",
     "vagas_total": 6,
-    "url": "https://flemingeducacao.inhire.app/vagas"
+    "url": "https://azos.inhire.app/vagas"
   },
   {
-    "empresa": "GEO3D ENGENHARIA DE MAPEAMENTO",
+    "empresa": "Carbigdata",
     "vagas_total": 6,
-    "url": "https://geo3d.inhire.app/vagas"
+    "url": "https://carbigdata.inhire.app/vagas"
   },
   {
     "empresa": "Grupo Food Nation",
@@ -910,14 +935,14 @@
     "url": "https://grupofoodnation.inhire.app/vagas"
   },
   {
-    "empresa": "Imaflora",
+    "empresa": "InHire",
     "vagas_total": 6,
-    "url": "https://imaflora.inhire.app/vagas"
+    "url": "https://carreiras.inhire.app/vagas"
   },
   {
-    "empresa": "Miner Tecnologia",
+    "empresa": "Lumine",
     "vagas_total": 6,
-    "url": "https://minertecnologia.inhire.app/vagas"
+    "url": "https://lumine.inhire.app/vagas"
   },
   {
     "empresa": "MOTIM",
@@ -925,19 +950,14 @@
     "url": "https://motim.inhire.app/vagas"
   },
   {
-    "empresa": "Pier Seguradora",
+    "empresa": "Programmers - AI, Data & Software",
     "vagas_total": 6,
-    "url": "https://pier.inhire.app/vagas"
+    "url": "https://programmers.inhire.app/vagas"
   },
   {
-    "empresa": "Querodelivery",
+    "empresa": "RankMyApp",
     "vagas_total": 6,
-    "url": "https://querodelivery.inhire.app/vagas"
-  },
-  {
-    "empresa": "QuickSoft",
-    "vagas_total": 6,
-    "url": "https://quicksoft.inhire.app/vagas"
+    "url": "https://rankmyapp.inhire.app/vagas"
   },
   {
     "empresa": "Seazone",
@@ -945,19 +965,19 @@
     "url": "https://seazone.inhire.app/vagas"
   },
   {
+    "empresa": "Tripla",
+    "vagas_total": 6,
+    "url": "https://tripla.inhire.app/vagas"
+  },
+  {
     "empresa": "Ubots",
     "vagas_total": 6,
     "url": "https://ubots.inhire.app/vagas"
   },
   {
-    "empresa": "Unimar",
+    "empresa": "UPDA",
     "vagas_total": 6,
-    "url": "https://unimar.inhire.app/vagas"
-  },
-  {
-    "empresa": "Vem ser GX2",
-    "vagas_total": 6,
-    "url": "https://gx2.inhire.app/vagas"
+    "url": "https://upda.inhire.app/vagas"
   },
   {
     "empresa": "VerticalRH",
@@ -970,9 +990,24 @@
     "url": "https://adias.inhire.app/vagas"
   },
   {
+    "empresa": "Aiko",
+    "vagas_total": 5,
+    "url": "https://aiko.inhire.app/vagas"
+  },
+  {
     "empresa": "AltoQi",
     "vagas_total": 5,
     "url": "https://altoqi.inhire.app/vagas"
+  },
+  {
+    "empresa": "Atlântico",
+    "vagas_total": 5,
+    "url": "https://atlantico.inhire.app/vagas"
+  },
+  {
+    "empresa": "Celcoin",
+    "vagas_total": 5,
+    "url": "https://celcoin.inhire.app/vagas"
   },
   {
     "empresa": "ecx",
@@ -980,19 +1015,24 @@
     "url": "https://ecx.inhire.app/vagas"
   },
   {
+    "empresa": "Elements",
+    "vagas_total": 5,
+    "url": "https://elements.inhire.app/vagas"
+  },
+  {
     "empresa": "EstrelaBet",
     "vagas_total": 5,
     "url": "https://estrelabet.inhire.app/vagas"
   },
   {
-    "empresa": "Go Bravo",
+    "empresa": "Final Level ",
     "vagas_total": 5,
-    "url": "https://gobravo.inhire.app/vagas"
+    "url": "https://finallevel.inhire.app/vagas"
   },
   {
-    "empresa": "InHire",
+    "empresa": "Jaé",
     "vagas_total": 5,
-    "url": "https://carreiras.inhire.app/vagas"
+    "url": "https://jae.inhire.app/vagas"
   },
   {
     "empresa": "Jeitto",
@@ -1000,14 +1040,14 @@
     "url": "https://jeitto.inhire.app/vagas"
   },
   {
-    "empresa": "LabWare",
-    "vagas_total": 5,
-    "url": "https://labwarebrasil.inhire.app/vagas"
-  },
-  {
     "empresa": "Quero Passagem",
     "vagas_total": 5,
     "url": "https://queropassagem.inhire.app/vagas"
+  },
+  {
+    "empresa": "Querodelivery",
+    "vagas_total": 5,
+    "url": "https://querodelivery.inhire.app/vagas"
   },
   {
     "empresa": "Sunne",
@@ -1020,9 +1060,14 @@
     "url": "https://centraldevagas.inhire.app/vagas"
   },
   {
-    "empresa": "UPDA",
+    "empresa": "Unimar",
     "vagas_total": 5,
-    "url": "https://upda.inhire.app/vagas"
+    "url": "https://unimar.inhire.app/vagas"
+  },
+  {
+    "empresa": "5Ccompany",
+    "vagas_total": 4,
+    "url": "https://5ccompany.inhire.app/vagas"
   },
   {
     "empresa": "Alloyal",
@@ -1030,24 +1075,14 @@
     "url": "https://alloyal.inhire.app/vagas"
   },
   {
-    "empresa": "Atlas",
+    "empresa": "Blume Alimentos | OH! A Água",
     "vagas_total": 4,
-    "url": "https://atlastechnol.inhire.app/vagas"
+    "url": "https://blumeohaagua.inhire.app/vagas"
   },
   {
     "empresa": "Cinga Tech",
     "vagas_total": 4,
     "url": "https://cinga.inhire.app/vagas"
-  },
-  {
-    "empresa": "Emerge Ventures",
-    "vagas_total": 4,
-    "url": "https://emergeventures.inhire.app/vagas"
-  },
-  {
-    "empresa": "FindUP",
-    "vagas_total": 4,
-    "url": "https://findup.inhire.app/vagas"
   },
   {
     "empresa": "Fintalk",
@@ -1060,19 +1095,14 @@
     "url": "https://genyo.inhire.app/vagas"
   },
   {
-    "empresa": "Grupo Ciranda Cultural",
+    "empresa": "Imaflora",
     "vagas_total": 4,
-    "url": "https://cirandacultural.inhire.app/vagas"
+    "url": "https://imaflora.inhire.app/vagas"
   },
   {
     "empresa": "iSystems",
     "vagas_total": 4,
     "url": "https://isystems.inhire.app/vagas"
-  },
-  {
-    "empresa": "Jaé",
-    "vagas_total": 4,
-    "url": "https://jae.inhire.app/vagas"
   },
   {
     "empresa": "Kife",
@@ -1090,14 +1120,9 @@
     "url": "https://kobe.inhire.app/vagas"
   },
   {
-    "empresa": "Lima Consulting Group",
+    "empresa": "LabWare",
     "vagas_total": 4,
-    "url": "https://limaconsulting.inhire.app/vagas"
-  },
-  {
-    "empresa": "Lumine",
-    "vagas_total": 4,
-    "url": "https://lumine.inhire.app/vagas"
+    "url": "https://labwarebrasil.inhire.app/vagas"
   },
   {
     "empresa": "Ocean Drop",
@@ -1105,29 +1130,14 @@
     "url": "https://oceandrop.inhire.app/vagas"
   },
   {
-    "empresa": "RankMyApp",
-    "vagas_total": 4,
-    "url": "https://rankmyapp.inhire.app/vagas"
-  },
-  {
     "empresa": "Sicredi",
     "vagas_total": 4,
     "url": "https://sicredi.inhire.app/vagas"
   },
   {
-    "empresa": "Silicon",
+    "empresa": "Trampay",
     "vagas_total": 4,
-    "url": "https://silicon.inhire.app/vagas"
-  },
-  {
-    "empresa": "Tripla",
-    "vagas_total": 4,
-    "url": "https://tripla.inhire.app/vagas"
-  },
-  {
-    "empresa": "UpFlux",
-    "vagas_total": 4,
-    "url": "https://upflux.inhire.app/vagas"
+    "url": "https://trampay.inhire.app/vagas"
   },
   {
     "empresa": "Vixtra",
@@ -1145,14 +1155,34 @@
     "url": "https://benup.inhire.app/vagas"
   },
   {
-    "empresa": "fluke",
+    "empresa": "FindUP",
     "vagas_total": 3,
-    "url": "https://fluke.inhire.app/vagas"
+    "url": "https://findup.inhire.app/vagas"
   },
   {
-    "empresa": "Grupo Eximio",
+    "empresa": "Foxbit",
     "vagas_total": 3,
-    "url": "https://grupoeximio.inhire.app/vagas"
+    "url": "https://foxbit.inhire.app/vagas"
+  },
+  {
+    "empresa": "Go Bravo",
+    "vagas_total": 3,
+    "url": "https://gobravo.inhire.app/vagas"
+  },
+  {
+    "empresa": "GOPWR",
+    "vagas_total": 3,
+    "url": "https://grupogopwr.inhire.app/vagas"
+  },
+  {
+    "empresa": "Grupo Ciranda Cultural",
+    "vagas_total": 3,
+    "url": "https://cirandacultural.inhire.app/vagas"
+  },
+  {
+    "empresa": "Grupo Permaneo",
+    "vagas_total": 3,
+    "url": "https://grupopermaneo.inhire.app/vagas"
   },
   {
     "empresa": "JOTA",
@@ -1195,44 +1225,24 @@
     "url": "https://rhitmotech.inhire.app/vagas"
   },
   {
-    "empresa": "Seventh",
-    "vagas_total": 3,
-    "url": "https://seventh.inhire.app/vagas"
-  },
-  {
-    "empresa": "SuperFrete",
-    "vagas_total": 3,
-    "url": "https://superfrete.inhire.app/vagas"
-  },
-  {
     "empresa": "Talentt",
     "vagas_total": 3,
     "url": "https://talentt.inhire.app/vagas"
   },
   {
-    "empresa": "Voltta",
+    "empresa": "UpFlux",
     "vagas_total": 3,
-    "url": "https://volttaenergy.inhire.app/vagas"
+    "url": "https://upflux.inhire.app/vagas"
   },
   {
-    "empresa": "ADVBOX - Software Jurídico",
+    "empresa": "ASC Solutions",
     "vagas_total": 2,
-    "url": "https://advbox.inhire.app/vagas"
-  },
-  {
-    "empresa": "Aiko",
-    "vagas_total": 2,
-    "url": "https://aiko.inhire.app/vagas"
+    "url": "https://ascsolutions.inhire.app/vagas"
   },
   {
     "empresa": "Autom",
     "vagas_total": 2,
     "url": "https://autom.inhire.app/vagas"
-  },
-  {
-    "empresa": "Blume Alimentos | OH! A Água",
-    "vagas_total": 2,
-    "url": "https://blumeohaagua.inhire.app/vagas"
   },
   {
     "empresa": "Cactus Gaming",
@@ -1250,6 +1260,16 @@
     "url": "https://crown.inhire.app/vagas"
   },
   {
+    "empresa": "dtLabs",
+    "vagas_total": 2,
+    "url": "https://dtlabs.inhire.app/vagas"
+  },
+  {
+    "empresa": "Emerge Ventures",
+    "vagas_total": 2,
+    "url": "https://emergeventures.inhire.app/vagas"
+  },
+  {
     "empresa": "EnzRossi",
     "vagas_total": 2,
     "url": "https://enzrossi.inhire.app/vagas"
@@ -1260,24 +1280,19 @@
     "url": "https://floraconsultoria.inhire.app/vagas"
   },
   {
-    "empresa": "GOPWR",
+    "empresa": "Grupo Eximio",
     "vagas_total": 2,
-    "url": "https://grupogopwr.inhire.app/vagas"
-  },
-  {
-    "empresa": "Grupo Permaneo",
-    "vagas_total": 2,
-    "url": "https://grupopermaneo.inhire.app/vagas"
-  },
-  {
-    "empresa": "Kiwify",
-    "vagas_total": 2,
-    "url": "https://kiwify.inhire.app/vagas"
+    "url": "https://grupoeximio.inhire.app/vagas"
   },
   {
     "empresa": "Lightfarm",
     "vagas_total": 2,
     "url": "https://lightfarmstudios.inhire.app/vagas"
+  },
+  {
+    "empresa": "Lima Consulting Group",
+    "vagas_total": 2,
+    "url": "https://limaconsulting.inhire.app/vagas"
   },
   {
     "empresa": "Mirum",
@@ -1295,6 +1310,11 @@
     "url": "https://dhg.inhire.app/vagas"
   },
   {
+    "empresa": "Silicon",
+    "vagas_total": 2,
+    "url": "https://silicon.inhire.app/vagas"
+  },
+  {
     "empresa": "Softvaro",
     "vagas_total": 2,
     "url": "https://softvaro.inhire.app/vagas"
@@ -1303,6 +1323,11 @@
     "empresa": "Strm Music",
     "vagas_total": 2,
     "url": "https://strm-music.inhire.app/vagas"
+  },
+  {
+    "empresa": "SuperFrete",
+    "vagas_total": 2,
+    "url": "https://superfrete.inhire.app/vagas"
   },
   {
     "empresa": "Tera",
@@ -1315,11 +1340,6 @@
     "url": "https://thunderstecnologia.inhire.app/vagas"
   },
   {
-    "empresa": "Transfero",
-    "vagas_total": 2,
-    "url": "https://transfero.inhire.app/vagas"
-  },
-  {
     "empresa": "VEM PRA TURMA",
     "vagas_total": 2,
     "url": "https://mspestudios.inhire.app/vagas"
@@ -1330,14 +1350,14 @@
     "url": "https://via.inhire.app/vagas"
   },
   {
+    "empresa": "Voltta",
+    "vagas_total": 2,
+    "url": "https://volttaenergy.inhire.app/vagas"
+  },
+  {
     "empresa": "Wellz by Wellhub",
     "vagas_total": 2,
     "url": "https://wellz.inhire.app/vagas"
-  },
-  {
-    "empresa": "Wevy",
-    "vagas_total": 2,
-    "url": "https://wevy-cloud.inhire.app/vagas"
   },
   {
     "empresa": "180 Seguros",
@@ -1345,9 +1365,19 @@
     "url": "https://180seguros.inhire.app/vagas"
   },
   {
+    "empresa": "ADVBOX - Software Jurídico",
+    "vagas_total": 1,
+    "url": "https://advbox.inhire.app/vagas"
+  },
+  {
     "empresa": "Allintra",
     "vagas_total": 1,
     "url": "https://allintra.inhire.app/vagas"
+  },
+  {
+    "empresa": "App Facilita",
+    "vagas_total": 1,
+    "url": "https://appfacilita.inhire.app/vagas"
   },
   {
     "empresa": "Banni",
@@ -1380,14 +1410,14 @@
     "url": "https://capef.inhire.app/vagas"
   },
   {
-    "empresa": "dtLabs",
+    "empresa": "ChatGuru",
     "vagas_total": 1,
-    "url": "https://dtlabs.inhire.app/vagas"
+    "url": "https://chatguru.inhire.app/vagas"
   },
   {
-    "empresa": "Foxbit",
+    "empresa": "fluke",
     "vagas_total": 1,
-    "url": "https://foxbit.inhire.app/vagas"
+    "url": "https://fluke.inhire.app/vagas"
   },
   {
     "empresa": "GC Serviços",
@@ -1398,6 +1428,21 @@
     "empresa": "Grupo Saga",
     "vagas_total": 1,
     "url": "https://gruposaga.inhire.app/vagas"
+  },
+  {
+    "empresa": "IVENTIS",
+    "vagas_total": 1,
+    "url": "https://iventis.inhire.app/vagas"
+  },
+  {
+    "empresa": "Kiwify",
+    "vagas_total": 1,
+    "url": "https://kiwify.inhire.app/vagas"
+  },
+  {
+    "empresa": "Mapa HDS",
+    "vagas_total": 1,
+    "url": "https://mapahds.inhire.app/vagas"
   },
   {
     "empresa": "Monkey",
@@ -1428,6 +1473,11 @@
     "empresa": "Ticket360",
     "vagas_total": 1,
     "url": "https://ticket360.inhire.app/vagas"
+  },
+  {
+    "empresa": "Transfero",
+    "vagas_total": 1,
+    "url": "https://transfero.inhire.app/vagas"
   },
   {
     "empresa": "Vatto",

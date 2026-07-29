@@ -1,5 +1,5 @@
 const fs = require('fs'), path = require('path');
-const { DIR, loadCompanies, compact, tokens, matchRole, slugify, pool, sleep, STOP } = require('./lib.js');
+const { DIR, loadCompanies, compact, tokens, matchRole, slugify, isAllowedLocation, isEntryLevel, pool, sleep, STOP } = require('./lib.js');
 
 // generic business words that must NOT alone justify a company match
 const GENERIC = new Set([...STOP,
@@ -86,12 +86,13 @@ function nameMatches(company, tenantName) {
     for (const j of t.jobs) {
       if (j.status && String(j.status).toLowerCase() !== 'published') continue;
       const role = matchRole(j.displayName);
-      const wp = String(j.workplaceType||'').toLowerCase();
-      if (!role || !wp.includes('remote')) continue;
+      if (!role) continue;
+      if (!role.startsWith('Trainee') && !isEntryLevel(j.displayName)) continue;
+      if (!isAllowedLocation(j.workplaceType, j.location)) continue;
       vagas.push({
         platform:'InHire', companyList: t.listCompany || '', companyInhire: t.tenantName,
         role, jobTitle: j.displayName, workplaceType: j.workplaceType, location: j.location||'',
-        url:`https://${t.slug}.inhire.app/vagas/${j.jobId}/${slugify(j.displayName)}`, publishedDate:'', inUserList: !!t.listCompany
+        url:`https://${t.slug}.inhire.app/vagas/${j.jobId}/${slugify(j.displayName)}`, publishedDate:'', deadline:'', inUserList: !!t.listCompany
       });
     }
   }

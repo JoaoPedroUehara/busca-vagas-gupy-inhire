@@ -25,14 +25,17 @@ $t0 = Get-Date
 Step 1  "Extrair empresas do xlsx -> companies.json"        { & "$dir\extrair_empresas.ps1" }
 Step 2  "Gupy: buscar vagas (API global) + presenca pool"   { node "$dir\gupy.js" }
 Step 3  "Gupy: presenca real por subdominio"                { node "$dir\gupy_presence_full.js" }
-Step 4  "InHire: chute de slug a partir da sua lista"       { node "$dir\inhire.js" }
-Step 5  "InHire: coletar slugs da web (Wayback/urlscan/CC)" { node "$dir\harvest_inhire.js" }
-Step 6  "InHire: validar todos os slugs na API"            { node "$dir\validate_inhire.js" }
-Step 7  "InHire: gerar saidas (vagas + empresas novas)"     { node "$dir\inhire_saida.js" }
-Step 8  "Consolidar e deduplicar vagas -> vagas_final.json" { node "$dir\merge.js" }
-Step 8b "Carimbar data de deteccao (novas = hoje)"          { node "$dir\stamp_dates.js" }
-Step 9  "Montar tabela de presenca"                         { node "$dir\presence.js" }
-Step 10 "Gerar planilha final (Excel, 3 abas)"              { & "$dir\build_xlsx.ps1" }
+Step 4  "Empregare: buscar vagas (API MCP)"                 { node "$dir\empregare.js" }
+Step 5  "Cia de Talentos: programas trainee/estagio"        { node "$dir\ciadetalentos.js" }
+Step 6  "Eureca: programas trainee/estagio"                 { node "$dir\eureca.js" }
+Step 7  "InHire: chute de slug a partir da sua lista"       { node "$dir\inhire.js" }
+Step 8  "InHire: coletar slugs da web (Wayback/urlscan/CC)" { node "$dir\harvest_inhire.js" }
+Step 9  "InHire: validar todos os slugs na API"            { node "$dir\validate_inhire.js" }
+Step 10 "InHire: gerar saidas (vagas + empresas novas)"     { node "$dir\inhire_saida.js" }
+Step 11 "Consolidar e deduplicar vagas -> vagas_final.json" { node "$dir\merge.js" }
+Step 11b "Carimbar data de deteccao (novas = hoje)"         { node "$dir\stamp_dates.js" }
+Step 12 "Montar tabela de presenca"                         { node "$dir\presence.js" }
+Step 13 "Gerar planilha final (Excel, 3 abas)"              { & "$dir\build_xlsx.ps1" }
 
 $mins = [math]::Round(((Get-Date) - $t0).TotalMinutes, 1)
 Write-Host ""

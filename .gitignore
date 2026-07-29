@@ -13,4 +13,7 @@ busca_vagas/vagas_final_prev.json
 # Locks do Excel
 ~$*.xlsx
 
+# Estado local de sessão do Claude Code (lock de tarefas agendadas)
+.claude/
+
 node_modules/

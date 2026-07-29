@@ -12,7 +12,7 @@ const results = allVagas.map(x => ({
   companyList: x.companyList || x.companyInhire,
   companyInhire: x.companyInhire,
   role: x.role, jobTitle: x.jobTitle, workplaceType: x.workplaceType, location: x.location,
-  url: x.url, publishedDate: '', na_lista: x.inUserList ? 'Sim' : 'Não'
+  url: x.url, publishedDate: '', deadline: '', na_lista: x.inUserList ? 'Sim' : 'Não'
 }));
 fs.writeFileSync(path.join(DIR, 'inhire_results.json'), JSON.stringify(results, null, 2));
 

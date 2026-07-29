@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { DIR, loadCompanies, compact, tokens, matchRole, slugify, sleep, pool } = require('./lib.js');
+const { DIR, loadCompanies, compact, tokens, matchRole, slugify, isAllowedLocation, isEntryLevel, sleep, pool } = require('./lib.js');
 
 const API = 'https://api.inhire.app/job-posts/public/pages';
 const HEADERS_BASE = { 'X-Inhire-Client': 'web-inhire', 'Content-Type': 'application/json', 'Accept': 'application/json' };
@@ -66,9 +66,9 @@ function nameMatches(companyName, tenantName) {
       for (const j of jobs) {
         if (String(j.status || '').toLowerCase() !== 'published' && j.status) continue;
         const role = matchRole(j.displayName);
-        const wp = String(j.workplaceType || '').toLowerCase();
-        const remote = wp.includes('remote') || wp.includes('remoto');
-        if (!role || !remote) continue;
+        if (!role) continue;
+        if (!role.startsWith('Trainee') && !isEntryLevel(j.displayName)) continue;
+        if (!isAllowedLocation(j.workplaceType, j.location)) continue;
         results.push({
           platform: 'InHire',
           companyList: company,
@@ -78,7 +78,8 @@ function nameMatches(companyName, tenantName) {
           workplaceType: j.workplaceType,
           location: j.location || '',
           url: `https://${slug}.inhire.app/vagas/${j.jobId}/${slugify(j.displayName)}`,
-          publishedDate: ''
+          publishedDate: '',
+          deadline: '' // InHire nao expoe data de publicacao nem prazo final na API publica
         });
       }
       break; // stop at first matching tenant
