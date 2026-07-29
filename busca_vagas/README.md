@@ -130,20 +130,20 @@ educação, tech, grupo…) ou compact-substring forte. Sem isso dá falso posit
 | # | Script | Entrada → Saída |
 |---|--------|-----------------|
 | 1 | `extrair_empresas.ps1` | `empresas.xlsx` → `companies.json` |
-| 2 | `gupy_presence_full.js` | companies.json + `gupy_presence_cache.json` → `gupy_presence_full.json` (roda **sozinho** — ver abaixo) |
-| 3 | **↓ os 6 em paralelo ↓** | |
+| 2 | **↓ os 7 em paralelo ↓** | |
 | | `gupy.js` | companies.json → `gupy_results.json`, `gupy_presence.json` |
+| | `gupy_presence_full.js` | companies.json + `gupy_presence_cache.json` → `gupy_presence_full.json` |
 | | `empregare.js` | companies.json → `empregare_results.json` (tool MCP `buscar_vagas`) |
 | | `ciadetalentos.js` | companies.json → `ciadetalentos_results.json` (programas trainee/estágio) |
 | | `eureca.js` | companies.json → `eureca_results.json` (programas trainee/estágio, com prazo) |
 | | `inhire.js` | companies.json → `inhire_tenants.json` (chute de slug pela lista) |
 | | `harvest_inhire.js` | web → `wb_app.txt`, `us_app_paged.json`, `cc_app.jsonl` |
-| 4 | `validate_inhire.js` | slugs → `inhire_all_tenants.json`, `inhire_all_vagas.json` |
-| 5 | `inhire_saida.js` | → `inhire_results.json`, `inhire_new_companies.json` |
-| 6 | `merge.js` | as 5 fontes → `vagas_final.json` (dedup) |
-| 7 | `stamp_dates.js` | mantém `seen.json` (data da 1ª aparição) → grava `detectado_em` em cada vaga |
-| 8 | `presence.js` | → `presence_combined.json` |
-| 9 | `build_xlsx.ps1` | tudo → `..\vagas_gupy_inhire.xlsx` |
+| 3 | `validate_inhire.js` | slugs → `inhire_all_tenants.json`, `inhire_all_vagas.json` |
+| 4 | `inhire_saida.js` | → `inhire_results.json`, `inhire_new_companies.json` |
+| 5 | `merge.js` | as 5 fontes → `vagas_final.json` (dedup) |
+| 6 | `stamp_dates.js` | mantém `seen.json` (data da 1ª aparição) → grava `detectado_em` em cada vaga |
+| 7 | `presence.js` | → `presence_combined.json` |
+| 8 | `build_xlsx.ps1` | tudo → `..\vagas_gupy_inhire.xlsx` |
 
 O `rodar_tudo.ps1` imprime o **tempo de cada etapa** no fim (e de cada script dentro da etapa
 paralela), então dá para ver na hora quem virou gargalo.
@@ -156,20 +156,38 @@ passa a ser o do script mais lento, não a soma. Só o encadeamento da InHire
 (descoberta → validação → saída) e a consolidação final são sequenciais, porque cada passo
 consome o arquivo do anterior.
 
-Duas exceções aprendidas na marra, ambas com a **gupy.io**:
+Uma lição aprendida na marra, com a **gupy.io**:
 
-- **`gupy_presence_full.js` roda sozinho, fora do bloco paralelo.** São centenas de requisições
-  a `<slug>.gupy.io`; disputando banda com os outros coletores, a Gupy derruba conexão e o
-  `probe()` registra a falha como "empresa sem página" — a aba Presença veio com 128 empresas
-  em vez de 130. Sozinho, o resultado é estável.
-- **Não aumente a concorrência desse pool.** Testado em 32: não ficou mais rápido (52s vs 51s)
-  e ainda achou **menos** empresas (125 vs 130), pelo mesmo motivo. 16 é o ponto de equilíbrio.
-  No `inhire.js` o mesmo aumento (16 → 28) foi seguro e cortou o tempo pela metade — a API da
-  InHire aguenta; a da Gupy não.
+- **Não aumente a concorrência do pool do `gupy_presence_full.js`.** Testado em 32: não ficou
+  mais rápido (52s vs 51s) e ainda achou **menos** empresas (125 vs 130) — a Gupy derruba
+  conexão sob carga, e o `probe()` registrava a falha como "empresa sem página". 16 é o ponto
+  de equilíbrio. No `inhire.js` o mesmo aumento (16 → 28) foi seguro e cortou o tempo pela
+  metade: a API da InHire aguenta, a da Gupy não.
+- Pelo mesmo motivo, esse script **precisou rodar sozinho** enquanto fazia ~4400 requisições
+  por rodada (a aba Presença vinha com 128 em vez de 130). Depois do cache incremental ele faz
+  ~130 numa rodada quente e voltou para o bloco paralelo sem degradar. **Se a contagem de
+  empresas da aba Presença começar a cair de novo, o primeiro suspeito é esse** — tire o script
+  do array do `StepParalelo` e rode-o como `Step` separado.
 
 Moral: neste pipeline, mais concorrência contra o mesmo host degrada os dados **em silêncio**,
 porque um `catch` que devolve "não achei" é indistinguível de "não existe". Ao mexer aqui,
 compare sempre a contagem de empresas/tenants com a rodada anterior, não só o cronômetro.
+
+### Datas e links na planilha (`build_xlsx.ps1`)
+
+- **As 3 colunas de data (Publicado, Prazo Final, Detectada em) são data DE VERDADE**, não
+  texto — número de série do Excel com exibição `dd/mm/aaaa`. Isso importa: como texto, a
+  ordenação era alfabética (`01/08` < `04/09` < `14/08`), então ordenar por **Prazo Final** —
+  o uso principal da coluna — dava a ordem errada.
+- **Não** basta gravar a string e deixar o Excel interpretar: o locale desta máquina é
+  `M/d/yyyy`, então `14/07/2026` não seria nem uma data válida. Por isso a conversão é
+  explícita (`TryParseExact` com `InvariantCulture` → `ToOADate`).
+- `stamp_dates.js` mantém o `seen.json` em ISO (`YYYY-MM-DD`), que é chave de comparação
+  estável, mas grava `detectado_em` em DD/MM/AAAA para bater com as outras duas colunas.
+- **Cada aba é escrita em UMA atribuição de array**, e os links viram fórmula
+  `=HYPERLINK(...)` (uma atribuição por coluna) em vez de `Hyperlinks.Add` por célula. Eram
+  ~3800 chamadas COM; a etapa caiu de **28-66s para ~3s**. A propriedade `Formula` do COM é
+  sempre invariante (função em inglês, vírgula como separador), independente do idioma do Excel.
 
 ### Cache incremental da presença Gupy
 

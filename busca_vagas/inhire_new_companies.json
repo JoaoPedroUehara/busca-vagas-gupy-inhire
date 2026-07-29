@@ -1,7 +1,7 @@
 [
   {
     "empresa": "V4 Company",
-    "vagas_total": 997,
+    "vagas_total": 971,
     "url": "https://v4company.inhire.app/vagas"
   },
   {
@@ -15,13 +15,18 @@
     "url": "https://grupocomolatti.inhire.app/vagas"
   },
   {
+    "empresa": "Priner",
+    "vagas_total": 267,
+    "url": "https://priner.inhire.app/vagas"
+  },
+  {
     "empresa": "Demo",
     "vagas_total": 246,
     "url": "https://demo.inhire.app/vagas"
   },
   {
     "empresa": "Deloitte",
-    "vagas_total": 228,
+    "vagas_total": 229,
     "url": "https://deloitte.inhire.app/vagas"
   },
   {
@@ -33,11 +38,6 @@
     "empresa": "Grupo Protege ",
     "vagas_total": 205,
     "url": "https://grupoprotege.inhire.app/vagas"
-  },
-  {
-    "empresa": "Priner",
-    "vagas_total": 200,
-    "url": "https://priner.inhire.app/vagas"
   },
   {
     "empresa": "Essencial Nutrição",
@@ -170,11 +170,6 @@
     "url": "https://queroeducacao.inhire.app/vagas"
   },
   {
-    "empresa": "QI Tech",
-    "vagas_total": 33,
-    "url": "https://qitech.inhire.app/vagas"
-  },
-  {
     "empresa": "Bequest Academy",
     "vagas_total": 32,
     "url": "https://bequestdigital.inhire.app/vagas"
@@ -183,6 +178,11 @@
     "empresa": "EQI",
     "vagas_total": 32,
     "url": "https://eqi.inhire.app/vagas"
+  },
+  {
+    "empresa": "QI Tech",
+    "vagas_total": 32,
+    "url": "https://qitech.inhire.app/vagas"
   },
   {
     "empresa": "Asper",
@@ -201,7 +201,7 @@
   },
   {
     "empresa": "Nomad",
-    "vagas_total": 31,
+    "vagas_total": 30,
     "url": "https://nomadglobal.inhire.app/vagas"
   },
   {
@@ -300,14 +300,14 @@
     "url": "https://ihunters.inhire.app/vagas"
   },
   {
-    "empresa": "Solfácil",
-    "vagas_total": 22,
-    "url": "https://solfacil.inhire.app/vagas"
-  },
-  {
     "empresa": "Anhembi",
     "vagas_total": 21,
     "url": "https://industriasanhembi.inhire.app/vagas"
+  },
+  {
+    "empresa": "Solfácil",
+    "vagas_total": 21,
+    "url": "https://solfacil.inhire.app/vagas"
   },
   {
     "empresa": "BIX Tecnologia - Consultoria de Dados",

@@ -2,9 +2,9 @@
   {
     "slug": "grupocentral",
     "tenantName": " Grupo Central",
-    "jobsCount": 22,
+    "jobsCount": 21,
     "listCompany": "CERC Central de Recebíveis",
-    "sampleJobs": 22
+    "sampleJobs": 21
   },
   {
     "slug": "180seguros",
@@ -716,9 +716,9 @@
   {
     "slug": "contabilizei",
     "tenantName": "Contabilizei",
-    "jobsCount": 62,
+    "jobsCount": 61,
     "listCompany": "Contabilizei",
-    "sampleJobs": 62
+    "sampleJobs": 61
   },
   {
     "slug": "convenia",
@@ -863,9 +863,9 @@
   {
     "slug": "deloitte",
     "tenantName": "Deloitte",
-    "jobsCount": 228,
+    "jobsCount": 229,
     "listCompany": null,
-    "sampleJobs": 228
+    "sampleJobs": 229
   },
   {
     "slug": "demo",
@@ -2228,9 +2228,9 @@
   {
     "slug": "nomadglobal",
     "tenantName": "Nomad",
-    "jobsCount": 31,
+    "jobsCount": 30,
     "listCompany": null,
-    "sampleJobs": 31
+    "sampleJobs": 30
   },
   {
     "slug": "nts",
@@ -2473,9 +2473,9 @@
   {
     "slug": "priner",
     "tenantName": "Priner",
-    "jobsCount": 200,
+    "jobsCount": 267,
     "listCompany": null,
-    "sampleJobs": 200
+    "sampleJobs": 267
   },
   {
     "slug": "pris",
@@ -2529,9 +2529,9 @@
   {
     "slug": "qitech",
     "tenantName": "QI Tech",
-    "jobsCount": 33,
+    "jobsCount": 32,
     "listCompany": null,
-    "sampleJobs": 33
+    "sampleJobs": 32
   },
   {
     "slug": "qive",
@@ -2669,9 +2669,9 @@
   {
     "slug": "samsung",
     "tenantName": "Samsung",
-    "jobsCount": 9,
+    "jobsCount": 10,
     "listCompany": "Samsung SDS",
-    "sampleJobs": 9
+    "sampleJobs": 10
   },
   {
     "slug": "sanar",
@@ -2709,18 +2709,18 @@
     "sampleJobs": 6
   },
   {
-    "slug": "segura",
-    "tenantName": "Segura®",
-    "jobsCount": 14,
-    "listCompany": null,
-    "sampleJobs": 14
-  },
-  {
     "slug": "senhasegura",
     "tenantName": "Segura®",
     "jobsCount": 0,
     "listCompany": null,
     "sampleJobs": 0
+  },
+  {
+    "slug": "segura",
+    "tenantName": "Segura®",
+    "jobsCount": 14,
+    "listCompany": null,
+    "sampleJobs": 14
   },
   {
     "slug": "segurossura",
@@ -2816,9 +2816,9 @@
   {
     "slug": "solfacil",
     "tenantName": "Solfácil",
-    "jobsCount": 22,
+    "jobsCount": 21,
     "listCompany": null,
-    "sampleJobs": 22
+    "sampleJobs": 21
   },
   {
     "slug": "solutis",
@@ -3180,9 +3180,9 @@
   {
     "slug": "v4company",
     "tenantName": "V4 Company",
-    "jobsCount": 997,
+    "jobsCount": 971,
     "listCompany": null,
-    "sampleJobs": 997
+    "sampleJobs": 971
   },
   {
     "slug": "vagasbyintera",

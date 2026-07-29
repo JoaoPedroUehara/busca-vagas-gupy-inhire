@@ -429,7 +429,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://grupocentral.inhire.app/vagas",
-    "inhire_vagas_total": 22
+    "inhire_vagas_total": 21
   },
   {
     "empresa": "CESAR",
@@ -541,7 +541,7 @@
     "gupy_url": "",
     "inhire": "Sim",
     "inhire_url": "https://contabilizei.inhire.app/vagas",
-    "inhire_vagas_total": 62
+    "inhire_vagas_total": 61
   },
   {
     "empresa": "Convenia",
@@ -1613,7 +1613,7 @@
     "gupy_url": "https://samsungsds.gupy.io/",
     "inhire": "Sim",
     "inhire_url": "https://samsung.inhire.app/vagas",
-    "inhire_vagas_total": 9
+    "inhire_vagas_total": 10
   },
   {
     "empresa": "Sciensa",
@@ -1874,7 +1874,7 @@
   {
     "empresa": "UOL EdTech",
     "gupy": "Sim",
-    "gupy_url": "https://uoledtech.gupy.io/",
+    "gupy_url": "https://uol.gupy.io/",
     "inhire": "",
     "inhire_url": "",
     "inhire_vagas_total": ""

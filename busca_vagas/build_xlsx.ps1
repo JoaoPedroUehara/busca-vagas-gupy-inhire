@@ -6,25 +6,62 @@ $vagas    = Get-Content "$dir\vagas_final.json" -Raw -Encoding UTF8 | ConvertFro
 $presenca = Get-Content "$dir\presence_combined.json" -Raw -Encoding UTF8 | ConvertFrom-Json
 $novas    = Get-Content "$dir\inhire_new_companies.json" -Raw -Encoding UTF8 | ConvertFrom-Json
 
-function Write-Sheet($ws, $name, $headers, $props, $rows, $linkCols, $widths, $wrapCols, $textCols) {
+$INV = [Globalization.CultureInfo]::InvariantCulture
+
+function Write-Sheet($ws, $name, $headers, $props, $rows, $linkCols, $widths, $wrapCols, $dateCols) {
   $ws.Name = $name
-  for ($c = 0; $c -lt $headers.Count; $c++) { $ws.Cells.Item(1, $c + 1) = $headers[$c] }
-  # Datas ja vem formatadas DD/MM/AAAA. Sem forcar Texto, o Excel reinterpreta a string como
-  # data e reexibe no formato curto do locale (06/07/2026 -> 6/7/2026, ambiguo com M/D/AAAA).
-  foreach ($tc in $textCols) { $ws.Columns.Item($tc).NumberFormat = '@' }
-  $r = 2
+  $nCols = $headers.Count
+  $nRows = @($rows).Count
+
+  # Escreve a aba inteira em UMA atribuicao de array (antes era celula por celula: ~3800
+  # chamadas COM entre as 3 abas, o que fazia esta etapa levar dezenas de segundos).
+  $buf = New-Object 'object[,]' ($nRows + 1), $nCols
+  for ($c = 0; $c -lt $nCols; $c++) { $buf[0, $c] = $headers[$c] }
+
+  $r = 1
   foreach ($row in $rows) {
-    for ($c = 0; $c -lt $props.Count; $c++) {
+    for ($c = 0; $c -lt $nCols; $c++) {
       $val = [string]$row.$($props[$c])
-      $cell = $ws.Cells.Item($r, $c + 1)
-      if (($linkCols -contains $props[$c]) -and $val) {
-        $ws.Hyperlinks.Add($cell, $val, [System.Reflection.Missing]::Value, 'Abrir', 'Abrir') | Out-Null
+      if (-not $val) { continue }
+      if ($dateCols -contains ($c + 1)) {
+        # Data DE VERDADE (numero de serie do Excel), nao texto. Como texto o Excel ordenava
+        # alfabeticamente -> 01/08 < 04/09 < 14/08, ou seja, ordenar por Prazo Final dava a
+        # ordem errada. Nao da para gravar a string e deixar o Excel interpretar: o locale
+        # desta maquina e M/d/yyyy, entao "14/07/2026" nem seria uma data valida.
+        $dt = [datetime]::MinValue
+        if ([datetime]::TryParseExact($val, 'dd/MM/yyyy', $INV, [Globalization.DateTimeStyles]::None, [ref]$dt)) {
+          $buf[$r, $c] = $dt.ToOADate()
+        } else {
+          $buf[$r, $c] = $val   # fora do padrao: preserva o dado como texto
+        }
       } else {
-        $cell.Value2 = $val
+        $buf[$r, $c] = $val
       }
     }
     $r++
   }
+  $ws.Range($ws.Cells.Item(1, 1), $ws.Cells.Item($nRows + 1, $nCols)).Value2 = $buf
+  foreach ($dc in $dateCols) { $ws.Columns.Item($dc).NumberFormat = 'dd/mm/yyyy' }
+
+  # Links: uma atribuicao de array por coluna, com formula HYPERLINK, em vez de um
+  # Hyperlinks.Add por celula. A propriedade Formula do COM e sempre invariante (nome de
+  # funcao em ingles e virgula como separador), independente do idioma do Excel.
+  foreach ($lc in $linkCols) {
+    $ci = [Array]::IndexOf([object[]]$props, $lc)
+    if ($ci -lt 0) { continue }
+    $col = New-Object 'object[,]' $nRows, 1
+    $r = 0
+    foreach ($row in $rows) {
+      $u = [string]$row.$lc
+      if ($u) { $col[$r, 0] = '=HYPERLINK("' + $u.Replace('"', '""') + '","Abrir")' }
+      $r++
+    }
+    if ($nRows -gt 0) {
+      $ws.Range($ws.Cells.Item(2, $ci + 1), $ws.Cells.Item($nRows + 1, $ci + 1)).Formula = $col
+    }
+  }
+
+  $r = $nRows + 2
   $lastRow = [Math]::Max($r - 1, 1)
   $lastCol = $headers.Count
   $hdr = $ws.Range($ws.Cells.Item(1,1), $ws.Cells.Item(1,$lastCol))

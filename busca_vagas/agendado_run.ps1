@@ -22,5 +22,5 @@ try {
 }
 catch {
   Add-Content -Path $log -Encoding UTF8 -Value "===== ERRO $(Get-Date -Format 'HH:mm:ss'): $($_.Exception.Message) ====="
-  Add-Content -Path $log -Encoding UTF8 -Value "(dica: se falhou no passo 9, o vagas_gupy_inhire.xlsx provavelmente estava ABERTO no Excel)"
+  Add-Content -Path $log -Encoding UTF8 -Value "(dica: se falhou no passo 8, o vagas_gupy_inhire.xlsx provavelmente estava ABERTO no Excel)"
 }

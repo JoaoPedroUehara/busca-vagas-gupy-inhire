@@ -3,6 +3,7 @@
 // o campo `detectado_em` em cada linha de vagas_final.json. Vagas novas ganham a
 // data de hoje -> a coluna "Detectada em" mostra na hora o que abriu desde a ultima rodada.
 const fs = require('fs'), path = require('path');
+const { formatDateBR } = require('./lib.js');
 const DIR = __dirname;
 const VF = path.join(DIR, 'vagas_final.json');
 const SF = path.join(DIR, 'seen.json');
@@ -16,13 +17,16 @@ const vagas = JSON.parse(fs.readFileSync(VF, 'utf8'));
 let seen = {};
 try { seen = JSON.parse(fs.readFileSync(SF, 'utf8')); } catch { /* primeira vez */ }
 
+let novasHoje = 0;
 for (const x of vagas) {
   const k = key(x);
   if (!seen[k]) seen[k] = today;
-  x.detectado_em = seen[k];
+  if (seen[k] === today) novasHoje++;
+  // seen.json fica em ISO (YYYY-MM-DD) porque e chave de comparacao estavel; a planilha
+  // recebe DD/MM/AAAA para bater com as colunas Publicado e Prazo Final.
+  x.detectado_em = formatDateBR(seen[k]);
 }
 
 fs.writeFileSync(SF, JSON.stringify(seen, null, 2));
 fs.writeFileSync(VF, JSON.stringify(vagas, null, 2));
-const novasHoje = vagas.filter(x => x.detectado_em === today).length;
 console.log(`stamp_dates: ${vagas.length} vagas carimbadas; detectadas hoje (${today}): ${novasHoje}`);

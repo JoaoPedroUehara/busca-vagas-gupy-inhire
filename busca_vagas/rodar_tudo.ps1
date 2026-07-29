@@ -76,17 +76,18 @@ $t0 = Get-Date
 
 Step 1 "Extrair empresas do xlsx -> companies.json" { & "$dir\extrair_empresas.ps1" }
 
-# Roda SOZINHO, fora do bloco paralelo, de proposito: sao centenas de requisicoes a
-# <slug>.gupy.io e, disputando banda com os outros coletores, a gupy.io derruba conexao
-# — o probe() registra a falha como "empresa sem pagina" e a aba Presenca vem incompleta
-# (medido: 128 em vez de 130). Sozinho, o resultado e estavel. Com o cache incremental
-# este passo so custa caro na 1a rodada.
-Step 2 "Gupy: presenca por subdominio (incremental)" { node "$dir\gupy_presence_full.js" }
-
-# As demais fontes batem em hosts diferentes entre si -> sem disputa. O tempo desta
-# etapa e o do script mais lento, nao a soma deles.
-StepParalelo 3 "Coletar todas as fontes" @(
+# Todas as fontes de uma vez. O tempo desta etapa e o do script mais lento, nao a soma.
+#
+# O gupy_presence_full.js voltou para dentro do bloco por causa do cache incremental: numa
+# rodada quente ele faz ~130 requisicoes (so reconfere os slugs conhecidos) em vez de ~4400,
+# entao nao disputa mais banda o suficiente para a gupy.io derrubar conexao. Foi por isso que
+# ele precisou rodar sozinho antes do cache — sem ele, a aba Presenca vinha com 128 em vez de
+# 130 porque o probe() registrava falha de rede como "empresa sem pagina".
+# Se a contagem de empresas da aba Presenca comecar a oscilar para baixo de novo, o primeiro
+# suspeito e este ponto: tire este script do array e rode-o como Step separado.
+StepParalelo 2 "Coletar todas as fontes" @(
   'gupy.js',                # vagas Gupy (busca global)
+  'gupy_presence_full.js',  # presenca por subdominio (incremental, via cache)
   'empregare.js',           # vagas Empregare (tool MCP)
   'ciadetalentos.js',       # programas trainee/estagio
   'eureca.js',              # programas trainee/estagio
@@ -94,12 +95,12 @@ StepParalelo 3 "Coletar todas as fontes" @(
   'harvest_inhire.js'       # slugs InHire da web aberta (Wayback/urlscan/CC)
 )
 
-Step 4 "InHire: validar todos os slugs na API"      { node "$dir\validate_inhire.js" }
-Step 5 "InHire: gerar saidas (vagas + empresas)"    { node "$dir\inhire_saida.js" }
-Step 6 "Consolidar e deduplicar -> vagas_final"     { node "$dir\merge.js" }
-Step 7 "Carimbar data de deteccao (novas = hoje)"   { node "$dir\stamp_dates.js" }
-Step 8 "Montar tabela de presenca"                  { node "$dir\presence.js" }
-Step 9 "Gerar planilha final (Excel, 3 abas)"       { & "$dir\build_xlsx.ps1" }
+Step 3 "InHire: validar todos os slugs na API"      { node "$dir\validate_inhire.js" }
+Step 4 "InHire: gerar saidas (vagas + empresas)"    { node "$dir\inhire_saida.js" }
+Step 5 "Consolidar e deduplicar -> vagas_final"     { node "$dir\merge.js" }
+Step 6 "Carimbar data de deteccao (novas = hoje)"   { node "$dir\stamp_dates.js" }
+Step 7 "Montar tabela de presenca"                  { node "$dir\presence.js" }
+Step 8 "Gerar planilha final (Excel, 3 abas)"       { & "$dir\build_xlsx.ps1" }
 
 $mins = [math]::Round(((Get-Date) - $t0).TotalMinutes, 1)
 Write-Host ""
