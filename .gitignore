@@ -10,10 +10,23 @@ busca_vagas/run_log.txt
 # Snapshot temporário da rodada anterior
 busca_vagas/vagas_final_prev.json
 
+# Coluna "Situação" da planilha: registra a quais vagas você se candidatou. Este repo é
+# PÚBLICO — isso é informação sua, fica só na sua máquina. (A planilha em si é regenerável;
+# se apagar as duas coisas, as marcações se perdem.)
+busca_vagas/situacao.json
+
 # Locks do Excel
 ~$*.xlsx
 
-# Estado local de sessão do Claude Code (lock de tarefas agendadas)
-.claude/
+# Estado local de sessão do Claude Code (lock de tarefas agendadas), exceto as skills
+# versionadas do projeto
+.claude/*
+!.claude/skills/
 
 node_modules/
+
+# Currículo e adaptações: dados pessoais (nome, contato, histórico), não vão para o repo
+# público. Fica só localmente na sua máquina. (README.md da pasta é o único arquivo sem
+# dado pessoal, por isso fica de fora do ignore.)
+curriculo/*
+!curriculo/README.md

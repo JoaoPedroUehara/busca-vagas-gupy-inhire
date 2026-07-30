@@ -51,7 +51,7 @@ O processo leva ~3–10 min (a maior parte é rede: buscar e validar tenants InH
 
 | Aba | Conteúdo |
 |-----|----------|
-| **Vagas** | Vagas nos cargos-alvo (das CINCO plataformas) que são 100% remotas OU presenciais/híbridas em Brasília-DF, e de nível inicial (Assistente/Auxiliar/Júnior/no máximo Analista I, ou Trainee/Estágio). Coluna **"Na sua lista?"** separa o que é da sua lista (Sim) do que foi descoberto fora dela (Não) — vale para as três fontes. Coluna **Alerta** sinaliza título com "híbrido/presencial" ou local fora do BR (pode exigir inglês). Coluna **"Detectada em"** = data em que a vaga apareceu pela 1ª vez no pipeline (filtre pela data de hoje para ver o que é novo). Link clicável para candidatar. |
+| **Vagas** | Vagas nos cargos-alvo (das CINCO plataformas) que são 100% remotas OU presenciais/híbridas em Brasília-DF, e de nível inicial (Assistente/Auxiliar/Júnior/no máximo Analista I, ou Trainee/Estágio). Coluna **"Situação"** (1ª) é sua: menu suspenso Aplicada / Não Aplicada / Desenvolvendo currículo, **preservada entre rodadas**. Coluna **"Na sua lista?"** separa o que é da sua lista (Sim) do que foi descoberto fora dela (Não) — vale para as cinco fontes. Coluna **Alerta** sinaliza título com "híbrido/presencial", local fora do BR (pode exigir inglês), ou programa sem área/praça declarada. **"Publicado"**, **"Prazo Final"** e **"Detectada em"** são datas de verdade (ordenáveis e filtráveis por período). Link clicável para candidatar. |
 | **Presença por Empresa** | Quais empresas da sua lista têm página na Gupy e/ou InHire, com links de carreiras. (Empregare é um board de vagas de terceiros, não um ATS por empresa, então não entra nesta aba — só na aba Vagas.) |
 | **InHire novas (fora da lista)** | Empresas InHire com vaga aberta que **não** estão na sua lista, ordenadas por volume. Mapa para explorar além dos seus cargos. |
 
@@ -172,6 +172,35 @@ Uma lição aprendida na marra, com a **gupy.io**:
 Moral: neste pipeline, mais concorrência contra o mesmo host degrada os dados **em silêncio**,
 porque um `catch` que devolve "não achei" é indistinguível de "não existe". Ao mexer aqui,
 compare sempre a contagem de empresas/tenants com a rodada anterior, não só o cronômetro.
+
+### Coluna "Situação" — a única coluna que é sua
+
+Primeira coluna da aba **Vagas**, com menu suspenso: **Aplicada**, **Não Aplicada**,
+**Desenvolvendo currículo** (digitação livre é bloqueada). Vaga nova entra como *Não Aplicada*.
+
+**Ela sobrevive às rodadas.** A planilha é recriada do zero toda vez, então uma coluna de
+marcação manual seria apagada no dia seguinte — inútil. O `build_xlsx.ps1` resolve assim:
+
+1. Antes de sobrescrever, abre a planilha atual em somente-leitura e lê o que você marcou.
+2. Funde em `situacao.json`, que é a fonte durável (sobrevive até a planilha ser apagada).
+3. Reescreve na planilha nova.
+
+A vaga é identificada pelo `jobId` da URL (ou `empresa|título` como reserva) — a mesma chave do
+`stamp_dates.js`. Então a marcação segue a **vaga**, não o número da linha: se a ordem mudar ou
+a vaga trocar de posição entre as rodadas, a marcação continua nela. As colunas da planilha
+antiga são localizadas pelo **cabeçalho**, não pela posição, para o resgate não quebrar se a
+ordem das colunas mudar numa versão futura.
+
+> ⚠️ **Só a coluna Situação é preservada.** Qualquer outra coisa que você editar na planilha
+> (linhas coloridas, colunas extras, anotações) é perdida na próxima rodada.
+
+### Acentos em arquivos `.ps1` — precisa de BOM
+
+O Windows PowerShell 5.1 lê `.ps1` como ANSI se o arquivo **não** tiver BOM UTF-8, e aí
+`Não Aplicada` vira `NÃ£o Aplicada` **dentro da planilha**. O `build_xlsx.ps1` é salvo com BOM
+por causa disso (é o único que tem texto acentuado indo para a saída). Foi por isso que os
+cabeçalhos originais evitavam acento (`Presenca`, `Titulo`). Ao editar esse arquivo, mantenha
+o BOM; ao adicionar texto acentuado a outro `.ps1`, adicione o BOM nele também.
 
 ### Datas e links na planilha (`build_xlsx.ps1`)
 
