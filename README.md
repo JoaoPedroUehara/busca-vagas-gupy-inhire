@@ -39,7 +39,7 @@ como ajustar os filtros de cargo/local/senioridade: **[`busca_vagas/README.md`](
 | `busca_vagas/*.ps1` | Orquestração, extração da lista de empresas e build da planilha |
 | `busca_vagas/agendado_run.ps1` | Wrapper da Tarefa Agendada do Windows (roda 11h30 e 18h) |
 | `empresas.xlsx` | Lista de empresas-alvo (entrada) |
-| `vagas_gupy_inhire.xlsx` | Planilha final, 3 abas (saída) |
+| `vagas_gupy_inhire.xlsx` | Planilha final, 3 abas (saída) — **não versionada**: carrega a coluna "Situação" com suas candidaturas. Gere a sua rodando o pipeline. |
 
 ## Nota
 

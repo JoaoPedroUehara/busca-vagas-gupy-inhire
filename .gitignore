@@ -10,10 +10,13 @@ busca_vagas/run_log.txt
 # Snapshot temporário da rodada anterior
 busca_vagas/vagas_final_prev.json
 
-# Coluna "Situação" da planilha: registra a quais vagas você se candidatou. Este repo é
-# PÚBLICO — isso é informação sua, fica só na sua máquina. (A planilha em si é regenerável;
-# se apagar as duas coisas, as marcações se perdem.)
+# Onde ficam suas candidaturas — este repo é PÚBLICO, então nada disso é versionado:
+#   situacao.json          = a quais vagas você se candidatou (fonte durável das marcações)
+#   vagas_gupy_inhire.xlsx = a planilha, que carrega a coluna "Situação"
+# A planilha é 100% regenerável (build_xlsx.ps1 a partir dos JSONs). Se apagar os DOIS
+# arquivos, as marcações se perdem — não há terceira cópia.
 busca_vagas/situacao.json
+vagas_gupy_inhire.xlsx
 
 # Locks do Excel
 ~$*.xlsx
